@@ -1,0 +1,250 @@
+{
+  "hausa": {
+    "id": "hausa",
+    "name": "Hausa",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > Hausa-Gwandara",
+    "ethnicGroups": ["Hausa"],
+    "similarLanguages": ["fulfulde", "kanuri", "ngizim"],
+    "description": "One of the largest languages in Africa by speaker count, Hausa is a lingua franca across much of northern Nigeria, Niger, and the wider Sahel. It is written in both a Latin-based script (Boko) and an Arabic-based script (Ajami)."
+  },
+  "yoruba": {
+    "id": "yoruba",
+    "name": "Yoruba",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Yoruboid",
+    "ethnicGroups": ["Yoruba"],
+    "similarLanguages": ["itsekiri", "igala"],
+    "description": "A tonal language spoken across south-western Nigeria and closely tied to Yoruba religion, literature, and film (Nollywood). It has large diaspora-speaking communities in the Americas via Yoruba-derived traditions such as Santería and Candomblé."
+  },
+  "igbo": {
+    "id": "igbo",
+    "name": "Igbo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Igboid",
+    "ethnicGroups": ["Igbo"],
+    "similarLanguages": ["ikwerre", "idoma"],
+    "description": "A tonal language of south-eastern Nigeria with numerous dialects; a standardized literary form is used in schools and media. Igbo has a long documented literary tradition, including Chinua Achebe's foundational English-language novels drawing on Igbo culture."
+  },
+  "fulfulde": {
+    "id": "fulfulde",
+    "name": "Fulfulde",
+    "classification": "Niger-Congo > Atlantic-Congo > North-Central Atlantic > Fula-Wolof",
+    "ethnicGroups": ["Fulani (Fulɓe)"],
+    "similarLanguages": ["hausa"],
+    "description": "The language of the Fulani people, historically associated with cattle-herding and pastoralism, spoken across a wide belt of West and Central Africa. Nigeria hosts one of the largest Fulfulde-speaking populations, concentrated in the north."
+  },
+  "kanuri": {
+    "id": "kanuri",
+    "name": "Kanuri",
+    "classification": "Nilo-Saharan > Saharan",
+    "ethnicGroups": ["Kanuri"],
+    "similarLanguages": ["hausa"],
+    "description": "Spoken mainly around Borno and Yobe states, Kanuri is the language of the historic Kanem-Bornu Empire, one of the longest-lived states in African history. It stands apart from most of its Nigerian neighbors as a Nilo-Saharan rather than Niger-Congo or Afro-Asiatic language."
+  },
+  "tiv": {
+    "id": "tiv",
+    "name": "Tiv",
+    "classification": "Niger-Congo > Atlantic-Congo > Bantoid > Southern Bantoid > Tivoid",
+    "ethnicGroups": ["Tiv"],
+    "similarLanguages": ["idoma", "jukun"],
+    "description": "Spoken mainly in Benue State and parts of Taraba and Nasarawa, Tiv is part of the Tivoid group, a branch related to the wider Bantoid family. The Tiv are one of Nigeria's largest ethnic groups outside the 'big three' (Hausa, Yoruba, Igbo)."
+  },
+  "ibibio": {
+    "id": "ibibio",
+    "name": "Ibibio",
+    "classification": "Niger-Congo > Atlantic-Congo > Cross River > Delta-Cross > Lower Cross",
+    "ethnicGroups": ["Ibibio"],
+    "similarLanguages": ["annang", "efik"],
+    "description": "Spoken across Akwa Ibom State, Ibibio is closely related to Annang and Efik, and the three are sometimes described as a single dialect continuum. It has a rich tradition of proverbs and masquerade performance central to Ibibio cultural life."
+  },
+  "efik": {
+    "id": "efik",
+    "name": "Efik",
+    "classification": "Niger-Congo > Atlantic-Congo > Cross River > Delta-Cross > Lower Cross",
+    "ethnicGroups": ["Efik"],
+    "similarLanguages": ["ibibio", "annang"],
+    "description": "Centered on Calabar in Cross River State, Efik was historically a major trade language of the Niger Delta coast and was among the first Nigerian languages to be reduced to writing by 19th-century missionaries."
+  },
+  "annang": {
+    "id": "annang",
+    "name": "Annang",
+    "classification": "Niger-Congo > Atlantic-Congo > Cross River > Delta-Cross > Lower Cross",
+    "ethnicGroups": ["Annang"],
+    "similarLanguages": ["ibibio", "efik"],
+    "description": "Closely related to Ibibio and often mutually intelligible with it, Annang is spoken in the western part of Akwa Ibom State and is associated with a strong local tradition of yam festivals and proverbs."
+  },
+  "edo": {
+    "id": "edo",
+    "name": "Edo (Bini)",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": ["Edo (Bini)"],
+    "similarLanguages": ["esan", "urhobo", "isoko"],
+    "description": "The language of the historic Benin Kingdom, centered on Benin City in Edo State. Its Edoid family relatives are spread across the wider Edo State and Delta region."
+  },
+  "esan": {
+    "id": "esan",
+    "name": "Esan",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": ["Esan"],
+    "similarLanguages": ["edo", "urhobo"],
+    "description": "Spoken in the Esan (Ishan) region of Edo State, this Edoid language shares deep historical ties with the neighboring Benin Kingdom while retaining a distinct identity and dialect cluster."
+  },
+  "urhobo": {
+    "id": "urhobo",
+    "name": "Urhobo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": ["Urhobo"],
+    "similarLanguages": ["isoko", "edo"],
+    "description": "Spoken across Delta State, Urhobo is closely related to Isoko, with which it forms a tight dialect cluster within the Edoid family. Urhobo culture is closely tied to the Niger Delta's fishing and farming economy."
+  },
+  "isoko": {
+    "id": "isoko",
+    "name": "Isoko",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": ["Isoko"],
+    "similarLanguages": ["urhobo", "edo"],
+    "description": "Closely related to Urhobo and spoken in the southern part of Delta State, Isoko split from a common ancestor language with Urhobo relatively recently by linguistic standards."
+  },
+  "itsekiri": {
+    "id": "itsekiri",
+    "name": "Itsekiri",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Yoruboid",
+    "ethnicGroups": ["Itsekiri"],
+    "similarLanguages": ["yoruba", "igala"],
+    "description": "Spoken in Delta and parts of Ondo State around Warri, Itsekiri is part of the Yoruboid group and shows strong historical links to Yoruba, alongside centuries of contact with Portuguese traders and neighboring Edoid and Ijoid groups."
+  },
+  "ijaw": {
+    "id": "ijaw",
+    "name": "Ijaw (Izon)",
+    "classification": "Niger-Congo > Ijoid",
+    "ethnicGroups": ["Ijaw"],
+    "similarLanguages": ["ikwerre", "urhobo"],
+    "description": "Ijaw (most widely represented by the Izon variety) belongs to Ijoid, a branch of Niger-Congo distinct enough that some linguists treat it as one of the family's earliest splits. Ijaw speakers are concentrated across the Niger Delta's riverine communities in Bayelsa, Delta, and Rivers states."
+  },
+  "ikwerre": {
+    "id": "ikwerre",
+    "name": "Ikwerre",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Igboid",
+    "ethnicGroups": ["Ikwerre"],
+    "similarLanguages": ["igbo", "ogoni"],
+    "description": "Spoken around Port Harcourt in Rivers State, Ikwerre is part of the Igboid group, closely related to Igbo, though its speakers maintain a distinct ethnic identity from the wider Igbo-speaking area."
+  },
+  "ogoni": {
+    "id": "ogoni",
+    "name": "Ogoni (Khana)",
+    "classification": "Niger-Congo > Atlantic-Congo > Cross River > Ogonoid",
+    "ethnicGroups": ["Ogoni"],
+    "similarLanguages": ["ikwerre", "ibibio"],
+    "description": "Khana, the largest Ogoni language, is spoken in Rivers State and forms its own small Ogonoid branch within the Cross River languages. The Ogoni people gained international attention through 1990s environmental and civil-rights activism led by Ken Saro-Wiwa."
+  },
+  "nupe": {
+    "id": "nupe",
+    "name": "Nupe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Nupoid",
+    "ethnicGroups": ["Nupe"],
+    "similarLanguages": ["gbagyi", "ebira"],
+    "description": "Spoken mainly in Niger and Kwara states along the Niger River, Nupe is the namesake of the Nupoid group and the language of the historic Nupe Kingdom, known for its riverine trade and craftsmanship."
+  },
+  "gbagyi": {
+    "id": "gbagyi",
+    "name": "Gbagyi (Gwari)",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Nupoid",
+    "ethnicGroups": ["Gbagyi"],
+    "similarLanguages": ["nupe", "ebira"],
+    "description": "Spoken across Niger State, the Federal Capital Territory, and parts of Kaduna, Gbagyi is one of the indigenous languages of the Abuja area and is well known for its pottery-making tradition."
+  },
+  "ebira": {
+    "id": "ebira",
+    "name": "Ebira",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Nupoid",
+    "ethnicGroups": ["Ebira"],
+    "similarLanguages": ["igala", "nupe"],
+    "description": "Centered on Kogi State, particularly the Okene area, Ebira belongs to the Nupoid group and is known for the Eku Masquerade Festival and a strong tradition of woven textiles."
+  },
+  "igala": {
+    "id": "igala",
+    "name": "Igala",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Yoruboid",
+    "ethnicGroups": ["Igala"],
+    "similarLanguages": ["yoruba", "itsekiri"],
+    "description": "Spoken in Kogi State around the confluence of the Niger and Benue rivers, Igala is closely related to Yoruba within the Yoruboid group and is the language of the historic Igala Kingdom."
+  },
+  "idoma": {
+    "id": "idoma",
+    "name": "Idoma",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Idomoid",
+    "ethnicGroups": ["Idoma"],
+    "similarLanguages": ["igede", "tiv"],
+    "description": "Spoken in southern Benue State, Idoma anchors the small Idomoid group and shares the Benue River region with its neighbor, Tiv, despite the two languages belonging to different subfamilies."
+  },
+  "igede": {
+    "id": "igede",
+    "name": "Igede",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Idomoid",
+    "ethnicGroups": ["Igede"],
+    "similarLanguages": ["idoma", "tiv"],
+    "description": "Spoken in southern Benue State around Otukpo, Igede is part of the Idomoid group and closely related to Idoma, though speakers regard themselves as ethnically distinct."
+  },
+  "berom": {
+    "id": "berom",
+    "name": "Berom",
+    "classification": "Niger-Congo > Atlantic-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": ["Berom"],
+    "similarLanguages": ["eggon", "ngas"],
+    "description": "The largest of the many Plateau languages native to Plateau State, Berom is centered on the Jos area, a region famous for extraordinary linguistic diversity packed into a small geographic space."
+  },
+  "eggon": {
+    "id": "eggon",
+    "name": "Eggon",
+    "classification": "Niger-Congo > Atlantic-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": ["Eggon"],
+    "similarLanguages": ["berom", "tiv"],
+    "description": "Spoken in Nasarawa State, Eggon belongs to the Plateau branch of Benue-Congo, sharing distant roots with languages like Berom further north on the Jos Plateau."
+  },
+  "ngas": {
+    "id": "ngas",
+    "name": "Ngas (Angas)",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > Angas-Sura",
+    "ethnicGroups": ["Ngas (Angas)"],
+    "similarLanguages": ["tangale", "berom"],
+    "description": "Spoken in Plateau State, Ngas represents the Chadic-language presence on the otherwise Niger-Congo-dominated Jos Plateau, illustrating the deep linguistic mixing of the region."
+  },
+  "jukun": {
+    "id": "jukun",
+    "name": "Jukun",
+    "classification": "Niger-Congo > Atlantic-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": ["Jukun"],
+    "similarLanguages": ["tiv", "idoma"],
+    "description": "Spoken across Taraba State, Jukun anchors the Jukunoid group and is the language of the historic Kwararafa confederacy, a powerful precolonial state in the Benue valley."
+  },
+  "bura": {
+    "id": "bura",
+    "name": "Bura",
+    "classification": "Afro-Asiatic > Chadic > Central Chadic > Bura-Mandara",
+    "ethnicGroups": ["Bura"],
+    "similarLanguages": ["kanuri", "tangale"],
+    "description": "Spoken in Adamawa and Borno states, Bura belongs to the Central Chadic group and has one of the longer traditions of Christian mission-related literacy among Chadic languages in the region."
+  },
+  "tangale": {
+    "id": "tangale",
+    "name": "Tangale",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > Tangale-Waja",
+    "ethnicGroups": ["Tangale"],
+    "similarLanguages": ["ngas", "bura"],
+    "description": "Spoken in Gombe State, Tangale gives its name to the Tangale-Waja group within West Chadic and is known for a distinctive tonal system extensively studied by linguists."
+  },
+  "ngizim": {
+    "id": "ngizim",
+    "name": "Ngizim",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > Bade-Ngizim",
+    "ethnicGroups": ["Ngizim"],
+    "similarLanguages": ["hausa", "kanuri"],
+    "description": "Spoken in Yobe State, Ngizim belongs to the Bade-Ngizim group of West Chadic and has been steadily losing ground to Hausa and Kanuri as regional linguae francae."
+  },
+  "nigerian-pidgin": {
+    "id": "nigerian-pidgin",
+    "name": "Nigerian Pidgin",
+    "classification": "English Creole (Atlantic Creole, English-lexified)",
+    "ethnicGroups": ["Cross-ethnic / pan-Nigerian"],
+    "similarLanguages": ["yoruba", "igbo"],
+    "description": "An English-lexified creole spoken as a lingua franca across Nigeria, especially in Lagos and the Niger Delta, with growing use in music, film, and everyday conversation across ethnic lines. Unlike the other languages here it isn't tied to a single ethnic group, functioning instead as a shared bridge language."
+  }
+}

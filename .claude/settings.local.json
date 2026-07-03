@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(curl -s --max-time 15 \"https://www.geoboundaries.org/api/current/gbOpen/NGA/ADM1/\")",
+      "Bash(curl -s --max-time 30 \"https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NGA/ADM1/geoBoundaries-NGA-ADM1_simplified.geojson\" -o /tmp/nga-raw.geojson)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL --max-time 30 \"https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NGA/ADM1/geoBoundaries-NGA-ADM1_simplified.geojson\" -o /tmp/nga-raw.geojson)",
+      "Read(//private/tmp/**)",
+      "Bash(npx --yes mapshaper -i /tmp/nga-clean.geojson -simplify 10% -o /tmp/nga-simplified.geojson format=geojson)",
+      "Bash(cp /tmp/nga-simplified.geojson /Users/aoku/Desktop/ClaudeCode/LanguageMap/public/data/nigeria-states.geojson)",
+      "Bash(curl -s --max-time 10 -o /dev/null -w \"%{http_code}\\\\n\" \"https://tiles.openfreemap.org/styles/liberty\")"
+    ]
+  }
+}
