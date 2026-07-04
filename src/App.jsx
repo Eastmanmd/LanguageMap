@@ -1,38 +1,48 @@
 import { useState } from 'react'
-import MapView from './components/MapView'
-import InfoPanel from './components/InfoPanel'
+import MapExplorer from './components/tabs/MapExplorer'
+import CompareLanguages from './components/tabs/CompareLanguages'
+import Blog from './components/tabs/Blog'
+
+const TABS = [
+  { id: 'map', label: 'Map' },
+  { id: 'compare', label: 'Compare languages' },
+  { id: 'blog', label: 'Blog' },
+]
 
 function App() {
-  const [selectedState, setSelectedState] = useState(null)
-
-  const handleSelectState = (stateId, stateName) => {
-    setSelectedState({ id: stateId, name: stateName })
-  }
+  const [activeTab, setActiveTab] = useState('map')
 
   return (
-    <div className="flex h-full flex-col">
-      <header className="border-b border-gray-200 bg-white px-5 py-3">
-        <h1 className="text-xl font-semibold text-gray-900">
-          Nigeria Language Map
-        </h1>
-        <p className="text-sm text-gray-500">
-          Click a state to explore the languages spoken there.
-        </p>
+    <div className="flex h-full flex-col bg-white">
+      <header className="border-b border-gray-200">
+        <div className="flex items-center gap-2 px-6 pt-4">
+          <div className="h-2 w-2 rounded-full bg-blue-600" />
+          <span className="text-[15px] font-medium tracking-tight text-gray-900">
+            LanguageMap
+          </span>
+        </div>
+
+        <nav className="flex gap-6 px-6 pt-4">
+          {TABS.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`border-b-2 pb-3 text-sm font-medium transition-colors ${
+                activeTab === tab.id
+                  ? 'border-blue-600 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-900'
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </nav>
       </header>
 
-      <main className="flex flex-1 flex-col overflow-hidden md:flex-row">
-        <div className="min-h-[45vh] flex-1 md:min-h-0">
-          <MapView
-            selectedStateId={selectedState?.id ?? null}
-            onSelectState={handleSelectState}
-          />
-        </div>
-        <aside className="w-full shrink-0 overflow-y-auto border-t border-gray-200 bg-white md:w-[340px] md:border-t-0 md:border-l">
-          <InfoPanel
-            selectedStateId={selectedState?.id ?? null}
-            selectedStateName={selectedState?.name ?? null}
-          />
-        </aside>
+      <main className="flex flex-1 flex-col overflow-hidden">
+        {activeTab === 'map' && <MapExplorer />}
+        {activeTab === 'compare' && <CompareLanguages />}
+        {activeTab === 'blog' && <Blog />}
       </main>
     </div>
   )
