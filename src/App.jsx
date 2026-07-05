@@ -41,11 +41,7 @@ function App() {
         </nav>
       </header>
 
-      <main
-        className={`flex flex-1 flex-col ${
-          activeTab === 'home' ? 'overflow-y-auto' : 'overflow-hidden'
-        }`}
-      >
+      <main className="flex flex-1 flex-col overflow-hidden">
         {activeTab === 'home' && <Home onNavigate={setActiveTab} />}
         {activeTab === 'map' && <MapExplorer />}
         {activeTab === 'compare' && <CompareLanguages />}
