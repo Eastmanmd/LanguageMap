@@ -12,7 +12,8 @@
       "Read(//private/tmp/**)",
       "Bash(npx --yes mapshaper -i /tmp/nga-clean.geojson -simplify 10% -o /tmp/nga-simplified.geojson format=geojson)",
       "Bash(cp /tmp/nga-simplified.geojson /Users/aoku/Desktop/ClaudeCode/LanguageMap/public/data/nigeria-states.geojson)",
-      "Bash(curl -s --max-time 10 -o /dev/null -w \"%{http_code}\\\\n\" \"https://tiles.openfreemap.org/styles/liberty\")"
+      "Bash(curl -s --max-time 10 -o /dev/null -w \"%{http_code}\\\\n\" \"https://tiles.openfreemap.org/styles/liberty\")",
+      "WebFetch(domain:research.google)"
     ]
   }
 }

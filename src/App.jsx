@@ -1,16 +1,18 @@
 import { useState } from 'react'
+import Home from './components/tabs/Home'
 import MapExplorer from './components/tabs/MapExplorer'
 import CompareLanguages from './components/tabs/CompareLanguages'
 import Blog from './components/tabs/Blog'
 
 const TABS = [
+  { id: 'home', label: 'Home' },
   { id: 'map', label: 'Map' },
   { id: 'compare', label: 'Compare languages' },
   { id: 'blog', label: 'Blog' },
 ]
 
 function App() {
-  const [activeTab, setActiveTab] = useState('map')
+  const [activeTab, setActiveTab] = useState('home')
 
   return (
     <div className="flex h-full flex-col bg-white">
@@ -39,7 +41,12 @@ function App() {
         </nav>
       </header>
 
-      <main className="flex flex-1 flex-col overflow-hidden">
+      <main
+        className={`flex flex-1 flex-col ${
+          activeTab === 'home' ? 'overflow-y-auto' : 'overflow-hidden'
+        }`}
+      >
+        {activeTab === 'home' && <Home onNavigate={setActiveTab} />}
         {activeTab === 'map' && <MapExplorer />}
         {activeTab === 'compare' && <CompareLanguages />}
         {activeTab === 'blog' && <Blog />}
