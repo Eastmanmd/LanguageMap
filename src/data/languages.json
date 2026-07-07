@@ -312,8 +312,7 @@
     ],
     "similarLanguages": [
       "gbagyi",
-      "ebira",
-      "kakanda"
+      "ebira"
     ],
     "description": "Spoken mainly in Niger and Kwara states along the Niger River, Nupe is the namesake of the Nupoid group and the language of the historic Nupe Kingdom, known for its riverine trade and craftsmanship."
   },
@@ -432,7 +431,7 @@
     ],
     "similarLanguages": [
       "eggon",
-      "ninzo"
+      "ningzo"
     ],
     "description": "Spoken in Nasarawa and southern Kaduna states, Mada is a prominent member of the Plateau linguistic branch and anchors numerous central-belt farming communities."
   },
@@ -516,7 +515,7 @@
     "description": "Spoken primarily in Borno and Adamawa states near the Cameroon border. Marghi is a cornerstone language of the Central Chadic group and has a well-documented linguistic literature analyzing its complex consonant clusters."
   },
   "kamwe": {
-    "id": "kamwe (Higgi)",
+    "id": "kamwe",
     "name": "Kamwe",
     "classification": "Afro-Asiatic > Chadic > Central Chadic > Bura-Mandara",
     "ethnicGroups": [
@@ -593,19 +592,6 @@
     ],
     "description": "A distinct variety of Arabic spoken in Borno State and across the Lake Chad basin. It serves as a major trade and pastoral language of the far northeast, showing heavy lexical convergence with Kanuri."
   },
-  "ebira": {
-    "id": "ebira",
-    "name": "Ebira",
-    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Nupoid",
-    "ethnicGroups": [
-      "Ebira"
-    ],
-    "similarLanguages": [
-      "igala",
-      "nupe"
-    ],
-    "description": "Centered on Kogi State, particularly the Okene area, Ebira belongs to the Nupoid group and is known for the Eku Masquerade Festival and a strong tradition of woven textiles."
-  },
   "bekwarra": {
     "id": "bekwarra",
     "name": "Bekwarra",
@@ -654,9 +640,2424 @@
     ],
     "similarLanguages": [
       "yoruba",
-      "igbo",
-      "english"
+      "igbo"
     ],
     "description": "An English-lexified creole spoken as a lingua franca across Nigeria, especially in Lagos and the Niger Delta, with growing use in music, film, and everyday conversation across ethnic lines. Unlike the other languages here it isn't tied to a single ethnic group, functioning instead as a shared bridge language."
+  },
+  "abanyom": {
+    "id": "abanyom",
+    "name": "Abanyom",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Ekoid",
+    "ethnicGroups": [
+      "Abanyom"
+    ],
+    "similarLanguages": [
+      "ekoi",
+      "ejagham"
+    ],
+    "description": "Also known as Bakor, Abanyom is spoken by the Abanyom people in Cross River State and belongs to the Ekoid group, making it fairly closely related to the Bantu languages. It is a tonal language with the noun class system typical of Niger-Congo."
+  },
+  "abon": {
+    "id": "abon",
+    "name": "Abon",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Tivoid",
+    "ethnicGroups": [
+      "Abon"
+    ],
+    "similarLanguages": [
+      "tiv"
+    ],
+    "description": "Abon, also rendered Abo, is a small Tivoid language of Nigeria, placing it in the same Southern Bantoid branch as Tiv."
+  },
+  "abua": {
+    "id": "abua",
+    "name": "Abua",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Central Delta",
+    "ethnicGroups": [
+      "Abua"
+    ],
+    "similarLanguages": [
+      "abureni",
+      "ogbia"
+    ],
+    "description": "Abua, also known as Abuan, is a Central Delta language spoken in the Niger Delta region of Nigeria."
+  },
+  "abureni": {
+    "id": "abureni",
+    "name": "Abureni",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Central Delta",
+    "ethnicGroups": [
+      "Abureni"
+    ],
+    "similarLanguages": [
+      "abua"
+    ],
+    "description": "Abureni is a Central Delta language of Nigeria's Niger Delta region, grouped with Ijoid-area languages in the same branch as Abua."
+  },
+  "adim": {
+    "id": "adim",
+    "name": "Adim",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River > Gwune",
+    "ethnicGroups": [
+      "Akunakuna"
+    ],
+    "similarLanguages": [
+      "ekajuk"
+    ],
+    "description": "Adim (Dim) is one of several dialect varieties within the Gwune dialect cluster, an Upper Cross River language of Nigeria spoken by the Akunakuna people, alongside related varieties such as Abayongo, Abini, Orum, Erei, and Etono."
+  },
+  "aduge": {
+    "id": "aduge",
+    "name": "Okpamheri",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Okpamheri"
+    ],
+    "similarLanguages": [
+      "edo",
+      "esan"
+    ],
+    "description": "Okpamheri, also called Opameri, is an Edoid language of Nigeria; by 1973 it had only around 30,000 speakers, and the language is considered moribund today."
+  },
+  "afade": {
+    "id": "afade",
+    "name": "Afade",
+    "classification": "Afroasiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Afade"
+    ],
+    "similarLanguages": [
+      "mandara",
+      "gamergu"
+    ],
+    "description": "Afade is an Afro-Asiatic language of the Chadic branch spoken in eastern Nigeria and northwestern Cameroon."
+  },
+  "afrike": {
+    "id": "afrike",
+    "name": "Putukwam",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Bendi",
+    "ethnicGroups": [
+      "Afrike"
+    ],
+    "similarLanguages": [
+      "boki",
+      "bokyi"
+    ],
+    "description": "Putukwam, also known as Utugwang-Irungene-Afrike, is a Bendi language spoken in Obudu Local Government Area of Cross River State, Nigeria."
+  },
+  "akpes": {
+    "id": "akpes",
+    "name": "Akpes",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Benue-Congo",
+    "ethnicGroups": [
+      "Akpes"
+    ],
+    "similarLanguages": [
+      "yoruba"
+    ],
+    "description": "Akpes is an endangered language spoken by about 7,000 people in northern Ondo State, in an area where Yoruba serves as the lingua franca; the language is gradually giving way to Yoruba in everyday informal use."
+  },
+  "alago": {
+    "id": "alago",
+    "name": "Alago",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Idomoid > Akweya > Etulo-Idoma",
+    "ethnicGroups": [
+      "Alago"
+    ],
+    "similarLanguages": [
+      "idoma",
+      "igede"
+    ],
+    "description": "Alago, or Idoma Nokwu, is an Idomoid language spoken in Nigeria whose people were originally one with the Idoma of Benue State before splitting off around 1200 AD; the Alago remain a largely agrarian community growing crops such as yam, maize, and millet."
+  },
+  "atsam": {
+    "id": "atsam",
+    "name": "Atsam",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Atsam"
+    ],
+    "similarLanguages": [
+      "kurama"
+    ],
+    "description": "Atsam, known to the Hausa as Chawai, is a Kainji language spoken by the Atsam people mainly in Kauru LGA of Kaduna State and Bassa LGA of Plateau State in Nigeria's Middle Belt."
+  },
+  "atyap": {
+    "id": "atyap",
+    "name": "Atyap",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Central Plateau",
+    "ethnicGroups": [
+      "Atyap"
+    ],
+    "similarLanguages": [
+      "asholio",
+      "bajju"
+    ],
+    "description": "The Atyap are a Middle Belt ethnic group of southern Kaduna and Plateau States who speak Tyap, one of the Central Plateau languages; their Hausa exonym is Kataf or Katab."
+  },
+  "ayu": {
+    "id": "ayu",
+    "name": "Ayu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Ninzic",
+    "ethnicGroups": [
+      "Ayu"
+    ],
+    "similarLanguages": [
+      "arum"
+    ],
+    "description": "Ayu is a minor, endangered Plateau language of southern Kaduna State in Nigeria's Middle Belt, tentatively classified among the Ninzic languages; it is no longer being reliably passed on to children."
+  },
+  "bachama": {
+    "id": "bachama",
+    "name": "Bachama",
+    "classification": "Afroasiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Bwatiye"
+    ],
+    "similarLanguages": [
+      "bura",
+      "kilba"
+    ],
+    "description": "Bachama is a Chadic language spoken by the Bwatiye people of Adamawa State, Nigeria, principally in the Numan, Demsa, and Lamurde local government areas, with related varieties such as Basa Pwa and Basa Voti."
+  },
+  "barke": {
+    "id": "barke",
+    "name": "Mburku",
+    "classification": "Afroasiatic > Chadic",
+    "ethnicGroups": [
+      "Mburku"
+    ],
+    "similarLanguages": [
+      "miya"
+    ],
+    "description": "Mburku, whose speakers prefer the name Burku, is a West Chadic language spoken by an estimated 7,000 to 10,000 people in the Miya District of Ganjuwa LGA, Bauchi State, Nigeria, and is not considered endangered."
+  },
+  "basa-komo": {
+    "id": "basa-komo",
+    "name": "Basa-Benue",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji > Basa",
+    "ethnicGroups": [
+      "Bassa"
+    ],
+    "similarLanguages": [
+      "basa-nge",
+      "igala"
+    ],
+    "description": "Basa-Komo, part of the Basa-Benue Kainji language cluster of central Nigeria, is spoken around Bassa, Ankpa, and Nasarawa; speakers of this cluster often also speak Igala, Ebira, or Nupe."
+  },
+  "basa-nge": {
+    "id": "basa-nge",
+    "name": "Basa-Benue",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji > Basa",
+    "ethnicGroups": [
+      "Bassa Nge"
+    ],
+    "similarLanguages": [
+      "basa-komo",
+      "nupe"
+    ],
+    "description": "Basa-Nge, also known as Bassa Nupe, is a variety within the Basa-Benue Kainji language cluster spoken in central Nigeria near Bassa, Ankpa, Nasarawa, Gurara, Kwali, and Makurdi, whose speakers often also use Igala, Ebira, or Nupe."
+  },
+  "bele": {
+    "id": "bele",
+    "name": "Ɓeele",
+    "classification": "Afroasiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Bele"
+    ],
+    "similarLanguages": [
+      "bole"
+    ],
+    "description": "Ɓeele, also known as Bele or Bellawa, is an endangered Afro-Asiatic language of the Bole-Tangale group spoken in a small number of villages in Bauchi State, Nigeria."
+  },
+  "bina": {
+    "id": "bina",
+    "name": "Bina",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Bina"
+    ],
+    "similarLanguages": [
+      "baushi"
+    ],
+    "description": "Bina, known to the Hausa as Binawa, is a Kainji language of Nigeria within the East Kainji subgroup."
+  },
+  "biseni": {
+    "id": "biseni",
+    "name": "Biseni",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kwa > Ijaw",
+    "ethnicGroups": [
+      "Biseni"
+    ],
+    "similarLanguages": [
+      "nembe",
+      "kalabari"
+    ],
+    "description": "Biseni, also called Buseni, is one of the coastal Ijaw languages of the Niger Delta in Nigeria, and is not fully mutually intelligible with Inland Ijaw varieties."
+  },
+  "boki": {
+    "id": "boki",
+    "name": "Bokyi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Bendi",
+    "ethnicGroups": [
+      "Bokyi"
+    ],
+    "similarLanguages": [
+      "bokyi",
+      "afrike"
+    ],
+    "description": "Bokyi is a regionally important Bendi language spoken by the Bokyi people of northern Cross River State, Nigeria, ranking among the fifteen most-spoken of the country's roughly 520 languages, with major dialects including Abu, Irruan, Osokom, and Wula."
+  },
+  "bokkos": {
+    "id": "bokkos",
+    "name": "Ron",
+    "classification": "Afroasiatic > Chadic > West Chadic > West Chadic A > Ron",
+    "ethnicGroups": [
+      "Ron"
+    ],
+    "similarLanguages": [
+      "mwahavul",
+      "ngas"
+    ],
+    "description": "Bokkos is a dialect within the Ron language cluster, an Afro-Asiatic Chadic group spoken in Plateau State, Nigeria, alongside related dialects such as Daffo-Mbar-Butura and Monguna."
+  },
+  "boko": {
+    "id": "boko",
+    "name": "Boko",
+    "classification": "Niger-Congo > Mande",
+    "ethnicGroups": [
+      "Boko"
+    ],
+    "similarLanguages": [],
+    "description": "Boko, also called Boo, is a Mande language spoken across Benin and Nigeria."
+  },
+  "bokyi": {
+    "id": "bokyi",
+    "name": "Bokyi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Bendi",
+    "ethnicGroups": [
+      "Bokyi"
+    ],
+    "similarLanguages": [
+      "boki",
+      "afrike"
+    ],
+    "description": "Bokyi is a regionally important Bendi language spoken by the Bokyi people of northern Cross River State, Nigeria, ranking among the fifteen most-spoken of the country's roughly 520 languages, with major dialects including Abu, Irruan, Osokom, and Wula."
+  },
+  "bole": {
+    "id": "bole",
+    "name": "Bole",
+    "classification": "Afroasiatic > Chadic",
+    "ethnicGroups": [
+      "Bolewa"
+    ],
+    "similarLanguages": [
+      "bele",
+      "tangale"
+    ],
+    "description": "Bole, also known as Bolanchi or Bolewa, is a West Chadic language spoken by around 250,000 people in Nigeria, including the Bara and Fika dialects of the Fika Emirate, and is written in the Latin alphabet."
+  },
+  "adara": {
+    "id": "adara",
+    "name": "Adara",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Central Plateau",
+    "ethnicGroups": [
+      "Adara"
+    ],
+    "similarLanguages": [
+      "izere",
+      "irigwe"
+    ],
+    "description": "Adara, also known as Eda or Kadara, is a Central Plateau language spoken by the Adara people of Kaduna and Niger States, Nigeria; the name Adara also refers to the ethnic group itself, whose roughly 500,000 people are mostly Christian with a Muslim minority."
+  },
+  "afo": {
+    "id": "afo",
+    "name": "Eloyi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Eloyi"
+    ],
+    "similarLanguages": [
+      "idoma"
+    ],
+    "description": "Eloyi, also known as Afo or Ajiri, is a Plateau language of uncertain finer classification spoken by the Eloyi people across Agatu and Otukpo LGAs of Benue State and parts of Nasarawa State, Nigeria."
+  },
+  "ahan": {
+    "id": "ahan",
+    "name": "Ahan",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Volta-Niger",
+    "ethnicGroups": [
+      "Ahan"
+    ],
+    "similarLanguages": [],
+    "description": "Ahan, also spelled Aahan, is a highly divergent Volta-Niger language of Nigeria with no close relatives among the languages documented here."
+  },
+  "akuku": {
+    "id": "akuku",
+    "name": "Akuku",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Akuku"
+    ],
+    "similarLanguages": [
+      "edo",
+      "aduge"
+    ],
+    "description": "Akuku is an Edoid language of Nigeria, placing it in the same branch as Edo and other related languages of the Edo-speaking region."
+  },
+  "amo": {
+    "id": "amo",
+    "name": "Amo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Amo"
+    ],
+    "similarLanguages": [
+      "baushi",
+      "bina"
+    ],
+    "description": "Amo, also known as Map or Timap, is a divergent Kainji language of Nigeria."
+  },
+  "anaguta": {
+    "id": "anaguta",
+    "name": "Guta",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Guta"
+    ],
+    "similarLanguages": [
+      "irigwe"
+    ],
+    "description": "The Guta language, also recorded as Iguta or Naraguta, is a Plateau language of Nigeria spoken by the Guta people, who number between 10,000 and 12,000."
+  },
+  "ankwa": {
+    "id": "ankwa",
+    "name": "Iku",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Ankwa"
+    ],
+    "similarLanguages": [
+      "irigwe"
+    ],
+    "description": "Iku, also known as Iku-Gora-Ankwa or Ekhwa, is a Plateau language of Nigeria."
+  },
+  "arum": {
+    "id": "arum",
+    "name": "Alumu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Alumic",
+    "ethnicGroups": [
+      "Alumu"
+    ],
+    "similarLanguages": [
+      "ayu"
+    ],
+    "description": "Alumu is a Plateau language spoken by around 7,000 people in Nasarawa State, Nigeria, notable for having lost the nominal affix system that is otherwise characteristic of the Niger-Congo family."
+  },
+  "asholio": {
+    "id": "asholio",
+    "name": "Tyap",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Central Plateau > Tyapic",
+    "ethnicGroups": [
+      "Sholyio"
+    ],
+    "similarLanguages": [
+      "atyap",
+      "bajju"
+    ],
+    "description": "Asholio, or Sholyio, is one of the named dialectal varieties within the Tyap cluster, a regionally important group of Plateau languages in Nigeria's Middle Belt also known by the Hausa exonym Katab or Kataf."
+  },
+  "aten": {
+    "id": "aten",
+    "name": "Eten",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Beromic",
+    "ethnicGroups": [
+      "Niten"
+    ],
+    "similarLanguages": [
+      "berom"
+    ],
+    "description": "Eten, also spelled Iten, is a Plateau language spoken by the Niten people in the town of Ganawuri in Plateau State, Nigeria."
+  },
+  "baushi": {
+    "id": "baushi",
+    "name": "Bauchi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Baushi"
+    ],
+    "similarLanguages": [
+      "amo",
+      "bina"
+    ],
+    "description": "Bauchi, also spelled Bauci or Baushi, is a cluster of Kainji languages spoken in Rafi LGA of Niger State, Nigeria."
+  },
+  "burak": {
+    "id": "burak",
+    "name": "Burak",
+    "classification": "Niger-Congo > Atlantic-Congo > Adamawa",
+    "ethnicGroups": [
+      "Burak"
+    ],
+    "similarLanguages": [],
+    "description": "Burak is an Adamawa language spoken by the Burak people in Nigeria, centered on the village of Burak (known locally as \"Tiire\") in the northern foothills of the Chonge-Mona Range, with a small population historically numbering under 5,000."
+  },
+  "buta": {
+    "id": "buta",
+    "name": "Gamo-Ningi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Gamo",
+      "Ningi"
+    ],
+    "similarLanguages": [
+      "chokobo",
+      "dungu"
+    ],
+    "description": "Gamo (also called Buta) and Ningi form an apparently extinct Kainji dialect cluster of Nigeria."
+  },
+  "chip": {
+    "id": "chip",
+    "name": "Miship",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Miship"
+    ],
+    "similarLanguages": [],
+    "description": "Miship, also known as Chip, is an Afro-Asiatic language spoken in Plateau State, Nigeria, with Doka as one of its dialects alongside the Longmaar and Jiḇaam varieties."
+  },
+  "chokobo": {
+    "id": "chokobo",
+    "name": "Zora",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Zora"
+    ],
+    "similarLanguages": [
+      "dungu",
+      "buta"
+    ],
+    "description": "Zora, also called Izora or Cokoba in Hausa, is a Kainji language of Nigeria belonging to the East Kainji subgroup."
+  },
+  "cibak": {
+    "id": "cibak",
+    "name": "Cibak",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Kibaku"
+    ],
+    "similarLanguages": [
+      "kilba",
+      "marghi"
+    ],
+    "description": "Cibak (also rendered Chibok or Chibbak) is a Chadic language spoken by about 200,000 mostly Kibaku people in the Askira/Uba, Chibok, and Damboa areas of southern Borno State; most speakers are Christian, and the schoolgirls abducted in the 2014 Chibok kidnapping were largely Cibak-speaking."
+  },
+  "cipu": {
+    "id": "cipu",
+    "name": "Cipu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > Shingini languages",
+    "ethnicGroups": [
+      "Acipu"
+    ],
+    "similarLanguages": [
+      "laaru",
+      "reshe"
+    ],
+    "description": "Cicipu is a Kainji language spoken by about 20,000 people, who call themselves Acipu (Acipawa in Hausa), in northwest Nigeria, and is notable for a complex noun class system along with lexical and grammatical tone."
+  },
+  "cori": {
+    "id": "cori",
+    "name": "Kyoli",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Kyoli"
+    ],
+    "similarLanguages": [
+      "doka",
+      "ganawuri"
+    ],
+    "description": "Kyoli, also known as Cori or Chori, is a Plateau language spoken in southern Kaduna State, Nigeria."
+  },
+  "dadiya": {
+    "id": "dadiya",
+    "name": "Dadiya",
+    "classification": "Niger-Congo > Atlantic-Congo > Adamawa",
+    "ethnicGroups": [
+      "Dadiya"
+    ],
+    "similarLanguages": [],
+    "description": "Dadiya (also called Loodiya) is one of the Savanna languages of northeastern Nigeria, spoken by communities in Balanga LGA of Gombe State and in parts of Adamawa and Taraba states."
+  },
+  "doemak": {
+    "id": "doemak",
+    "name": "Pan",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Angas > Sura-Gerka > Kofyar",
+    "ethnicGroups": [
+      "Pan"
+    ],
+    "similarLanguages": [
+      "kofyar",
+      "mwahavul"
+    ],
+    "description": "Pan, also known as Doemak, is an Afro-Asiatic dialect cluster spoken in Plateau State, Nigeria, classified within the Kofyar group of West Chadic languages."
+  },
+  "doka": {
+    "id": "doka",
+    "name": "Doka",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Adara"
+    ],
+    "similarLanguages": [
+      "cori",
+      "ganawuri"
+    ],
+    "description": "Doka, called Ejuele in Adara, is a Plateau language of Nigeria."
+  },
+  "duguri": {
+    "id": "duguri",
+    "name": "Jarawa (Nigeria)",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Jarawa"
+    ],
+    "similarLanguages": [
+      "dulbu",
+      "gubi"
+    ],
+    "description": "Jarawa, also called Jhar or Jaranci in Hausa, is the most populous of the Jarawan Bantu languages of northern Nigeria and consists of a dialect cluster with many varieties."
+  },
+  "duka": {
+    "id": "duka",
+    "name": "Hun-Saare",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > Northwest Kainji",
+    "ethnicGroups": [
+      "Duka"
+    ],
+    "similarLanguages": [
+      "laaru",
+      "reshe"
+    ],
+    "description": "Hun-Saare, also known as Duka, is a Kainji language of Nigeria whose eastern and western dialects are called Hun and Saare, though speakers commonly use \"Saare\" for both."
+  },
+  "dulbu": {
+    "id": "dulbu",
+    "name": "Dulbu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Dulbu"
+    ],
+    "similarLanguages": [
+      "duguri",
+      "gubi"
+    ],
+    "description": "Dulbu is one of the Jarawan Bantu languages of Nigeria, whose speakers are increasingly shifting to Hausa."
+  },
+  "dungu": {
+    "id": "dungu",
+    "name": "Dungu",
+    "classification": "Niger-Congo > Atlantic-Congo",
+    "ethnicGroups": [
+      "Dungu"
+    ],
+    "similarLanguages": [
+      "chokobo",
+      "buta"
+    ],
+    "description": "Dungu, also known as Dingi, is a Kainji-area language of Nigeria."
+  },
+  "dza": {
+    "id": "dza",
+    "name": "Jen",
+    "classification": "Niger-Congo > Atlantic-Congo > Adamawa > Jenjo",
+    "ethnicGroups": [
+      "Jen"
+    ],
+    "similarLanguages": [
+      "dadiya"
+    ],
+    "description": "Dza, also called Jen, is an Adamawa language of Nigeria spoken along the northern bank of the Benue River in the border regions of Gombe, Adamawa, and Taraba states."
+  },
+  "ekajuk": {
+    "id": "ekajuk",
+    "name": "Kajuk",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Ekoid",
+    "ethnicGroups": [
+      "Ekajuk"
+    ],
+    "similarLanguages": [
+      "etung",
+      "ejagham"
+    ],
+    "description": "Ekajuk, also spelled Akajo or Akajuk, is an Ekoid language of the Niger-Congo family spoken in Cross River State and surrounding areas of Nigeria; the Ekajuk are among several peoples in the region who use the nsibidi ideographic writing system."
+  },
+  "eket": {
+    "id": "eket",
+    "name": "Ekid",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Ibibio",
+    "ethnicGroups": [
+      "Eket"
+    ],
+    "similarLanguages": [
+      "ibibio",
+      "annang",
+      "efik"
+    ],
+    "description": "Ekid, also called Esit Eket, is a lower Cross River language of Nigeria closely related to Ibibio varieties, tracing its origins to ancestral migrations of Ibibio-related peoples from the Cameroon highlands who settled fishing and farming communities in present-day Akwa Ibom State."
+  },
+  "ekoi": {
+    "id": "ekoi",
+    "name": "Ekoi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Ekoid",
+    "ethnicGroups": [
+      "Ekoi"
+    ],
+    "similarLanguages": [
+      "ejagham",
+      "etung"
+    ],
+    "description": "The Ekoi, also known as Ejagham, are an ethnic group of southeastern Nigeria and southwestern Cameroon whose related communities include the Etung and groups in Ikom and Ogoja; they have long lived alongside the neighboring Biase, Efik, Annang, and Ibibio peoples."
+  },
+  "emai-iuleha-ora": {
+    "id": "emai-iuleha-ora",
+    "name": "Ivbiosakon",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Emai",
+      "Iuleha",
+      "Ora"
+    ],
+    "similarLanguages": [
+      "engenni",
+      "enwan",
+      "ghotuo"
+    ],
+    "description": "Ivbiosakon, also called Aoma, is an Edoid language of Edo State, Nigeria, with Ora and Emai used as alternate dialect names."
+  },
+  "engenni": {
+    "id": "engenni",
+    "name": "Engenni",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Engenni"
+    ],
+    "similarLanguages": [
+      "epie-atissa",
+      "enwan"
+    ],
+    "description": "Engenni, also spelled Eṣeṇe, is an Edoid language of Nigeria, and Engenni migrants historically expanded into the neighboring Epie-Atissa area near Yenagoa in Bayelsa State."
+  },
+  "enwan": {
+    "id": "enwan",
+    "name": "Enwan",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Enwan"
+    ],
+    "similarLanguages": [
+      "engenni",
+      "emai-iuleha-ora",
+      "ghotuo"
+    ],
+    "description": "Enwan is an Edoid language spoken in Edo State, Nigeria."
+  },
+  "epie-atissa": {
+    "id": "epie-atissa",
+    "name": "Epie-Atissa",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Epie",
+      "Atissa"
+    ],
+    "similarLanguages": [
+      "engenni"
+    ],
+    "description": "The Epie and Atissa are two related peoples living along Epie Creek northeast of Yenagoa in Bayelsa State, Nigeria, whose combined community grew with an influx of Edoid-speaking Engenni migrants who share cultural ties with the neighboring Ijaw."
+  },
+  "etsako": {
+    "id": "etsako",
+    "name": "Yekhee",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Afenmai"
+    ],
+    "similarLanguages": [
+      "ghotuo",
+      "emai-iuleha-ora",
+      "enwan"
+    ],
+    "description": "Yekhee, also called Afenmai or Iyekhe, is an Edoid language spoken in Edo State, Nigeria, by the Afenmai people, some of whom instead use the district name Etsako; it was formerly labeled \"Kukuruku\" by British colonial administrators, a name now considered derogatory."
+  },
+  "etung": {
+    "id": "etung",
+    "name": "Ejagham",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Ekoid",
+    "ethnicGroups": [
+      "Ekoi"
+    ],
+    "similarLanguages": [
+      "ekoi",
+      "ekajuk"
+    ],
+    "description": "Ejagham, also known as Jagham or Ekoi, is an Ekoid language spoken by the Ekoi people across Nigeria and Cameroon; the Ekoi are among the peoples associated with creating the Nsibidi ideographic script."
+  },
+  "etuno": {
+    "id": "etuno",
+    "name": "Ebira",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Nupoid",
+    "ethnicGroups": [
+      "Ebira"
+    ],
+    "similarLanguages": [
+      "nupe",
+      "gbagyi"
+    ],
+    "description": "Ebira is a Nupoid language spoken by around 2 million people in Nigeria's Middle Belt, and is the most divergent Nupoid language, with the Okene variety serving as its central dialect."
+  },
+  "fyam": {
+    "id": "fyam",
+    "name": "Pyem",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > East Plateau",
+    "ethnicGroups": [
+      "Pyem"
+    ],
+    "similarLanguages": [
+      "ganawuri",
+      "cori"
+    ],
+    "description": "Pyem, rendered Fyam or Fyem in Hausa, is a Plateau language spoken by the people of Pyem Chiefdom, headquartered in Gindiri, and is one of the indigenous languages of Mangu LGA, Plateau State, Nigeria."
+  },
+  "fyer": {
+    "id": "fyer",
+    "name": "Fyer",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Ron",
+    "ethnicGroups": [
+      "Fyer"
+    ],
+    "similarLanguages": [
+      "ron",
+      "kulere"
+    ],
+    "description": "Fyer, also known as Fier, is a West Chadic language spoken in Plateau State, Nigeria."
+  },
+  "gaanda": {
+    "id": "gaanda",
+    "name": "Ga'anda",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara > Teraic",
+    "ethnicGroups": [
+      "Ga'anda"
+    ],
+    "similarLanguages": [
+      "tera",
+      "kilba"
+    ],
+    "description": "Ga'anda, also known as Ganda or Ga'andu, is a Biu-Mandara Chadic language spoken by about 43,000 people in the Gombi LGA of Adamawa State, Nigeria, with three dialects: Ga'anda, Gabun, and Boga."
+  },
+  "gade": {
+    "id": "gade",
+    "name": "Gade",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo",
+    "ethnicGroups": [
+      "Gade"
+    ],
+    "similarLanguages": [
+      "nupe",
+      "gbagyi"
+    ],
+    "description": "Gade is an independent Gadoid language of Nigeria; recent classification treats it as its own branch of Benue-Congo rather than as a Nupoid language, despite being spoken by the Gade people."
+  },
+  "galambi": {
+    "id": "galambi",
+    "name": "Galambu",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Galambu"
+    ],
+    "similarLanguages": [
+      "gera",
+      "tangale"
+    ],
+    "description": "Galambu, also known as Galambi or Galambe, is a Chadic language spoken in Nigeria, though most members of the Galambu ethnic group no longer speak it."
+  },
+  "gamergu": {
+    "id": "gamergu",
+    "name": "Wandala",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Wandala"
+    ],
+    "similarLanguages": [
+      "mandara"
+    ],
+    "description": "Wandala, also known as Mandara or Mura, is a Chadic language of the Afro-Asiatic family spoken across the Nigeria-Cameroon border."
+  },
+  "ganawuri": {
+    "id": "ganawuri",
+    "name": "Eten",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > Beromic",
+    "ethnicGroups": [
+      "Niten"
+    ],
+    "similarLanguages": [
+      "berom",
+      "cori"
+    ],
+    "description": "Eten, also called Iten, is a Plateau language of Nigeria spoken by the Niten people of the town of Ganawuri in Plateau State."
+  },
+  "gbiri-niragu": {
+    "id": "gbiri-niragu",
+    "name": "Gbiri-Niragu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Gbiri",
+      "Niragu"
+    ],
+    "similarLanguages": [
+      "chokobo",
+      "dungu"
+    ],
+    "description": "Gbiri-Niragu, also called Gure-Kahugu, is a Kainji language of Nigeria whose Tugbiri variety is spoken around the village of Gure in Lere LGA of southern Kaduna State, with Aniragu speakers living just to the north; speakers are shifting toward Hausa."
+  },
+  "geji": {
+    "id": "geji",
+    "name": "Geji",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > South Bauchi",
+    "ethnicGroups": [
+      "Geji"
+    ],
+    "similarLanguages": [],
+    "description": "Geji, also called Gezawa, is a minor Chadic dialect cluster of Bauchi State, Nigeria, comprising three similar varieties: Buu, Gyaazi, and Məgang."
+  },
+  "gengle": {
+    "id": "gengle",
+    "name": "Kugama",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi > Leko-Nimbari > Mumuye-Yendang",
+    "ethnicGroups": [
+      "Kugama"
+    ],
+    "similarLanguages": [
+      "mumuye"
+    ],
+    "description": "Kugama, also known as Wam or Gengle, is an Adamawa language of the Yendang group spoken in the Mayo-Belwa and Fufore local government areas of Adamawa State, Nigeria."
+  },
+  "gera": {
+    "id": "gera",
+    "name": "Gera",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Fyandigeri"
+    ],
+    "similarLanguages": [
+      "galambi",
+      "tangale"
+    ],
+    "description": "Gera, also known as Gerawa or Fyandigeri, is a Chadic language spoken across at least 30 villages in Nigeria, though its speakers are gradually shifting to Hausa."
+  },
+  "geruma": {
+    "id": "geruma",
+    "name": "Geruma",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Geruma"
+    ],
+    "similarLanguages": [
+      "gera",
+      "galambi"
+    ],
+    "description": "Geruma, also called Gerema or Germa, is a Chadic language of Nigeria with Duurum and Sum dialects, whose speakers are shifting to Hausa."
+  },
+  "ghotuo": {
+    "id": "ghotuo",
+    "name": "Ghotuo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid > North-Central Edoid > Ghotuo-Uneme-Yekhee",
+    "ethnicGroups": [
+      "Ghotuo"
+    ],
+    "similarLanguages": [
+      "etsako",
+      "uneme"
+    ],
+    "description": "Ghotuo, also known as Otwa or Otuo, is a North Central Edoid language spoken mostly in the Owan and Akoko-Edo areas of Edo State, Nigeria."
+  },
+  "giiwo": {
+    "id": "giiwo",
+    "name": "Giiwo",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Giiwo"
+    ],
+    "similarLanguages": [
+      "kirfi"
+    ],
+    "description": "Giiwo, also known as Bu Giiwo or Kirfi, is a Chadic language of the Afro-Asiatic family spoken in Nigeria."
+  },
+  "gokana": {
+    "id": "gokana",
+    "name": "Gokana",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Ogoni",
+    "ethnicGroups": [
+      "Gokana"
+    ],
+    "similarLanguages": [
+      "ogoni"
+    ],
+    "description": "Gokana is an Ogoni language spoken by roughly 130,000 people in Rivers State, Nigeria."
+  },
+  "gubi": {
+    "id": "gubi",
+    "name": "Shiki",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Shiki"
+    ],
+    "similarLanguages": [
+      "duguri",
+      "dulbu"
+    ],
+    "description": "Shiki, also known as Gubi, is one of the Jarawan Bantu languages of Nigeria, spoken in Bauchi State."
+  },
+  "gudu": {
+    "id": "gudu",
+    "name": "Gudu",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Gudu"
+    ],
+    "similarLanguages": [
+      "bura",
+      "marghi"
+    ],
+    "description": "Gudu, also known as Gudo or Gutu, is an Afro-Asiatic language spoken in the Song Local Government Area of Adamawa State, with Kumbi as one of its dialects."
+  },
+  "guruntum": {
+    "id": "guruntum",
+    "name": "Guruntum",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > South Bauchi",
+    "ethnicGroups": [
+      "Guruntum"
+    ],
+    "similarLanguages": [
+      "geji",
+      "warji"
+    ],
+    "description": "Guruntum is a Chadic language spoken in the Bauchi and Alkaleri Local Government Areas of Bauchi State, with an estimated 15,000 speakers as of 1993."
+  },
+  "gusu": {
+    "id": "gusu",
+    "name": "Gusu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji > Shammo",
+    "ethnicGroups": [
+      "Gusu"
+    ],
+    "similarLanguages": [
+      "jere",
+      "kurama"
+    ],
+    "description": "Gusu, also known as Gussum or Baw, is an East Kainji language belonging to the Shammo cluster, spoken in Toro Local Government Area of Bauchi State and Bassa Local Government Area of Plateau State."
+  },
+  "gwa": {
+    "id": "gwa",
+    "name": "Gwa",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Gwa"
+    ],
+    "similarLanguages": [
+      "jaku",
+      "kantana"
+    ],
+    "description": "Gwa is one of the Jarawan Bantu languages spoken in Nigeria, part of a small pocket of Bantu languages found outside the core Bantu-speaking region of Central and Southern Africa."
+  },
+  "gwandara": {
+    "id": "gwandara",
+    "name": "Gwandara",
+    "classification": "Afro-Asiatic > Chadic > West Chadic",
+    "ethnicGroups": [
+      "Gwandara"
+    ],
+    "similarLanguages": [
+      "hausa"
+    ],
+    "description": "Gwandara is a West Chadic language and the closest known relative of Hausa, spoken in several dialects across north-central Nigeria by the Gwandara people, who number around 30,000 and are concentrated in Abuja, Niger, Kaduna, Kogi and Nasarawa States, including the resettlement town of New Karshi."
+  },
+  "gwoza": {
+    "id": "gwoza",
+    "name": "Lamang",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Lamang"
+    ],
+    "similarLanguages": [
+      "mandara",
+      "gaanda"
+    ],
+    "description": "Lamang, also spelled Laamang, is an Afro-Asiatic language cluster of Nigeria; researchers have classified its Woga (Gwoza) variety as a distinct language within the cluster."
+  },
+  "gyem": {
+    "id": "gyem",
+    "name": "Gyem",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Gyem"
+    ],
+    "similarLanguages": [
+      "gusu",
+      "kinuku"
+    ],
+    "description": "Gyem is a Kainji language spoken in Bauchi State, Nigeria."
+  },
+  "hona": {
+    "id": "hona",
+    "name": "Hwana",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara > Teraic",
+    "ethnicGroups": [
+      "Hwana"
+    ],
+    "similarLanguages": [
+      "tera",
+      "jara"
+    ],
+    "description": "Hwana, also known as Hwona, Hona, Tuftera or Fiterya, is an Afro-Asiatic language spoken in Adamawa State, Nigeria."
+  },
+  "humono": {
+    "id": "humono",
+    "name": "Humono",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Bahumono"
+    ],
+    "similarLanguages": [
+      "bekwarra",
+      "boki"
+    ],
+    "description": "Humono, also known as Ohumono or Bahumono, is a Central Cross River language spoken by the Bahumono people in Abi Local Government Area of Cross River State."
+  },
+  "ichen": {
+    "id": "ichen",
+    "name": "Izere",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Izere"
+    ],
+    "similarLanguages": [
+      "izere",
+      "berom"
+    ],
+    "description": "Izere is a dialect continuum of Plateau languages in Nigeria that some researchers analyze as four distinct languages, though Ethnologue does not separate its northwestern and northeastern varieties; its Cen dialect has picked up Berom-style noun-class prefixes and consonant alternation."
+  },
+  "idesa": {
+    "id": "idesa",
+    "name": "Okpe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid > Southwestern Edoid",
+    "ethnicGroups": [
+      "Urhobo"
+    ],
+    "similarLanguages": [
+      "urhobo",
+      "isoko"
+    ],
+    "description": "Okpe is a Southwestern Edoid language of Nigeria spoken by the Urhobo people."
+  },
+  "idon": {
+    "id": "idon",
+    "name": "Idon",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Idon"
+    ],
+    "similarLanguages": [
+      "kamantan",
+      "ikulu"
+    ],
+    "description": "Idon, also known as Idong or Ajiya, is a Plateau language spoken in Nigeria."
+  },
+  "ijumu": {
+    "id": "ijumu",
+    "name": "Ijumu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Yoruboid",
+    "ethnicGroups": [
+      "Ijumu"
+    ],
+    "similarLanguages": [
+      "yagba",
+      "owe"
+    ],
+    "description": "The Ijumu people of Ijumu Local Government Area in Kogi State, centered on the town of Iyara, speak the Okun dialect of Yoruba."
+  },
+  "iko": {
+    "id": "iko",
+    "name": "Iko",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Lower Cross River",
+    "ethnicGroups": [
+      "Obolo"
+    ],
+    "similarLanguages": [
+      "obolo",
+      "eket"
+    ],
+    "description": "Iko is a Lower Cross River language of Nigeria whose speakers are ethnically Obolo, though the Iko language itself is not the Obolo people's main language."
+  },
+  "ikpeshi": {
+    "id": "ikpeshi",
+    "name": "Ikpeshi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Ikpeshi"
+    ],
+    "similarLanguages": [
+      "ghotuo",
+      "edo"
+    ],
+    "description": "Ikpeshi is an Edoid language spoken in Edo State, Nigeria."
+  },
+  "ikulu": {
+    "id": "ikulu",
+    "name": "Kulu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Bakulu"
+    ],
+    "similarLanguages": [
+      "kamantan",
+      "irigwe"
+    ],
+    "description": "Kulu, also known as Ikulu or Ankulu, is a Plateau language spoken by the Bakulu people in the Zangon Kataf, Kachia and Kauru Local Government Areas of Kaduna State."
+  },
+  "irigwe": {
+    "id": "irigwe",
+    "name": "Rigwe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Irigwe"
+    ],
+    "similarLanguages": [
+      "ikulu",
+      "berom"
+    ],
+    "description": "Rigwe, also called Nkarigwe, is a Plateau language spoken by the Irigwe people, mainly in Bassa Local Government Area of Plateau State; it has a notably complex phonology, including a lateral fricative sound unusual among Plateau languages that suggests earlier contact with West Chadic languages in the area."
+  },
+  "ivbie-north-okpela-arhe": {
+    "id": "ivbie-north-okpela-arhe",
+    "name": "Okpela",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Okpella"
+    ],
+    "similarLanguages": [
+      "ikpeshi",
+      "ghotuo"
+    ],
+    "description": "Okpela, also spelled Okpella, is a dialect cluster of Edoid languages spoken in Nigeria."
+  },
+  "iyala": {
+    "id": "iyala",
+    "name": "Yala",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Idomoid > Akweya > Etulo-Idoma",
+    "ethnicGroups": [
+      "Yala"
+    ],
+    "similarLanguages": [
+      "idoma",
+      "igede"
+    ],
+    "description": "Yala, also known as Iyala, is an Idomoid language spoken around Ogoja in Cross River State, Nigeria, with dialects including Ikom, Obubra, and Ogoja as classified by Blench in 2019."
+  },
+  "izere": {
+    "id": "izere",
+    "name": "Izere",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Izere"
+    ],
+    "similarLanguages": [
+      "ichen",
+      "berom"
+    ],
+    "description": "Izere is a dialect continuum of Plateau languages in Nigeria that some researchers analyze as four distinct languages, though Ethnologue does not separate its northwestern and northeastern varieties; its Cen and Ganang varieties each have only around 2,000 speakers, and Cen has absorbed Berom-style noun-class prefixes and consonant alternation."
+  },
+  "jaku": {
+    "id": "jaku",
+    "name": "Labir",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Labir"
+    ],
+    "similarLanguages": [
+      "gwa",
+      "kantana"
+    ],
+    "description": "Labir, also known as Jaku, is one of the Jarawan Bantu languages of Nigeria, spoken in Bauchi State."
+  },
+  "jara": {
+    "id": "jara",
+    "name": "Jara",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara > Teraic",
+    "ethnicGroups": [
+      "Jara"
+    ],
+    "similarLanguages": [
+      "hona",
+      "tera"
+    ],
+    "description": "Jara, also known as Jera, is spoken in Borno and Gombe States across the Biu, Kwaya-Kusar, Akko, and Yamaltu-Deba Local Government Areas, and had about 46,000 speakers as of 2000; its use is declining as speakers shift to Fulfulde and Hausa."
+  },
+  "jere": {
+    "id": "jere",
+    "name": "Zele",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Zele"
+    ],
+    "similarLanguages": [
+      "gusu",
+      "kurama"
+    ],
+    "description": "Zele, also known as Zelle, Jere, or Jera, is an East Kainji language spoken in Bassa Local Government Area in northern Plateau State, Nigeria."
+  },
+  "kagoma": {
+    "id": "kagoma",
+    "name": "Gyong",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Gwong"
+    ],
+    "similarLanguages": [
+      "kamantan",
+      "ikulu"
+    ],
+    "description": "Gyong, also known as Kagoma, is a Plateau language spoken by about 20,000 people who call themselves Acipu, in Jema'a Local Government Area in southern Kaduna State."
+  },
+  "kamantan": {
+    "id": "kamantan",
+    "name": "Ngyian",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Anghan"
+    ],
+    "similarLanguages": [
+      "ikulu",
+      "irigwe"
+    ],
+    "description": "Ngyian, known in Hausa as Kamantan, is a Plateau language spoken by the Anghan people of Nigeria."
+  },
+  "kambari": {
+    "id": "kambari",
+    "name": "Kambari",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > Shingini",
+    "ethnicGroups": [
+      "Kambari"
+    ],
+    "similarLanguages": [
+      "reshe",
+      "laaru"
+    ],
+    "description": "The Kambari, or Kamberi, languages are a cluster of Kainji languages spoken in northwestern Nigeria, in Kebbi State and Niger State."
+  },
+  "kamo": {
+    "id": "kamo",
+    "name": "Kamo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Savannas > Waja",
+    "ethnicGroups": [
+      "Kamo"
+    ],
+    "similarLanguages": [
+      "waja",
+      "dadiya"
+    ],
+    "description": "Kamo, also known as Ma or Nyii Ma, is a Savannas language of Gombe State in eastern Nigeria; its speakers originally settled on Kamo Hill before gradually moving down into the plains during the 20th century."
+  },
+  "kantana": {
+    "id": "kantana",
+    "name": "Mama",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Mama"
+    ],
+    "similarLanguages": [
+      "gwa",
+      "jaku"
+    ],
+    "description": "Mama, also known as Kantana, is a Jarawan Bantu language spoken in Nigeria; a 1973 estimate gave 20,000 speakers, while a 2011 source recorded only 2,000-3,000 speakers under the name Kantana, mostly people over 25 years old."
+  },
+  "karekare": {
+    "id": "karekare",
+    "name": "Karai-karai",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Karai-Karai"
+    ],
+    "similarLanguages": [
+      "bole",
+      "ngamo"
+    ],
+    "description": "Karai-karai, also spelled Karekare or Kerrikerri, is an Afro-Asiatic language spoken by the ethnic Karai-Karai people, primarily in Bauchi, Yobe, and Gombe States in northeastern Nigeria, with an estimated 1.5 to 1.8 million speakers."
+  },
+  "kariya": {
+    "id": "kariya",
+    "name": "Kariya",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Wiihe"
+    ],
+    "similarLanguages": [
+      "kir-balar",
+      "warji"
+    ],
+    "description": "Kariya, also known as Vinahe, is an Afroasiatic language spoken by the Wiihe people in villages near the Stone Age archaeological site of Kariya Wuro in Ganjuwa Local Government Area, Bauchi State; the Wiihe maintain a rich ritual culture that includes masquerades and a circumcision ceremony known as sar."
+  },
+  "kentin": {
+    "id": "kentin",
+    "name": "Yukubenic",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo",
+    "ethnicGroups": [
+      "Yukuben"
+    ],
+    "similarLanguages": [
+      "kuteb",
+      "jukun"
+    ],
+    "description": "The Yukubenic, or Oohum, languages form a small branch spoken in southeastern Nigeria whose position is disputed: Glottolog places it within the Plateau family, Ethnologue places it within Jukunoid, and Blench has proposed it as an independent branch of Benue-Congo."
+  },
+  "kilba": {
+    "id": "kilba",
+    "name": "Huba",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Huba"
+    ],
+    "similarLanguages": [
+      "marghi",
+      "gaanda"
+    ],
+    "description": "Huba, also known as Nya Huba or Kilba, is a Chadic language spoken in Nigeria."
+  },
+  "kinuku": {
+    "id": "kinuku",
+    "name": "Kinuku",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Kinuku"
+    ],
+    "similarLanguages": [
+      "gyem",
+      "gusu"
+    ],
+    "description": "Kinuku, also known as Nu, is a Kainji language spoken in Nigeria."
+  },
+  "kir-balar": {
+    "id": "kir-balar",
+    "name": "Kir-Balar",
+    "classification": "Afro-Asiatic",
+    "ethnicGroups": [
+      "Kir-Balar"
+    ],
+    "similarLanguages": [
+      "kariya"
+    ],
+    "description": "Kir-Balar, also known as Kir or Kirr, is a pair of closely related Afro-Asiatic languages spoken in the villages of Kir Bengbet and Kir Bajang'le, in Bauchi Local Government Area, Bauchi State."
+  },
+  "kirfi": {
+    "id": "kirfi",
+    "name": "Giiwo",
+    "classification": "Afro-Asiatic > Chadic",
+    "ethnicGroups": [
+      "Giiwo"
+    ],
+    "similarLanguages": [
+      "kariya",
+      "kir-balar"
+    ],
+    "description": "Giiwo, also known as Bu Giiwo, Kirfi, Kirifi, or Kirifawa, is a Chadic language spoken in Nigeria."
+  },
+  "kofyar": {
+    "id": "kofyar",
+    "name": "Pan",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Angas > Sura-Gerka",
+    "ethnicGroups": [
+      "Kofyar"
+    ],
+    "similarLanguages": [
+      "ngas",
+      "sura",
+      "mwahavul"
+    ],
+    "description": "Pan, commonly known as Kofyar, is an Afro-Asiatic dialect cluster spoken in Plateau State, Nigeria."
+  },
+  "kona": {
+    "id": "kona",
+    "name": "Jiba",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": [
+      "Jiba"
+    ],
+    "similarLanguages": [
+      "jukun",
+      "kuteb"
+    ],
+    "description": "Jiba, also known as Kona, is an endangered Jukunoid language of the Niger-Congo family spoken by about 2,000 people across Bauchi, Plateau, and Taraba States."
+  },
+  "kubi": {
+    "id": "kubi",
+    "name": "Kubi",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Za'ar"
+    ],
+    "similarLanguages": [
+      "karekare"
+    ],
+    "description": "Kubi, also known as Kuba or Kubawa, is an extinct Afro-Asiatic language formerly spoken in Bauchi State by members of the Za'ar tribe, who have since shifted to Hausa."
+  },
+  "kugama": {
+    "id": "kugama",
+    "name": "Kugama",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi > Leko-Nimbari > Mumuye-Yendang",
+    "ethnicGroups": [
+      "Wam"
+    ],
+    "similarLanguages": [
+      "mumuye",
+      "waja"
+    ],
+    "description": "Kugama, also known as Wam or Gengle, is an Adamawa language of the Yendang group spoken in the Mayo-Belwa and Fufore Local Government Areas of Adamawa State; speakers refer to their own language as nya wam."
+  },
+  "kulere": {
+    "id": "kulere",
+    "name": "Kulere",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Ron",
+    "ethnicGroups": [
+      "Kulere"
+    ],
+    "similarLanguages": [
+      "ron",
+      "mwahavul"
+    ],
+    "description": "Kulere, also known as Tof, Korom Boye, Akandi, or Akande, is an Afro-Asiatic language spoken in Bokkos, Plateau State, and in parts of Wamba, Nasarawa State, Nigeria."
+  },
+  "kurama": {
+    "id": "kurama",
+    "name": "Kurama",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Akurmi"
+    ],
+    "similarLanguages": [
+      "gusu",
+      "jere"
+    ],
+    "description": "Kurama, also known as T'kurmi or Akurmi, is a Kainji language spoken across the north-central Nigerian states of Kaduna, Bauchi, Borno, Kano, Jigawa, and Plateau; about 88 percent of the Akurmi people are Christian."
+  },
+  "kushi": {
+    "id": "kushi",
+    "name": "Goji",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale > Tangalic",
+    "ethnicGroups": [
+      "Goji"
+    ],
+    "similarLanguages": [
+      "tangale",
+      "bole"
+    ],
+    "description": "Goji, also known as Kushi or Chong'e, is a West Chadic language spoken in Nigeria."
+  },
+  "kuteb": {
+    "id": "kuteb",
+    "name": "Kuteb",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": [
+      "Kuteb"
+    ],
+    "similarLanguages": [
+      "jukun",
+      "kona"
+    ],
+    "description": "Kuteb, also known as Kutep, Ati, Kutev, or Mbarike, is spoken mainly in the Takum and Ussa Local Government Areas and Yangtu Special Development Area of Taraba State, with a small number of speakers also found across the border in Cameroon."
+  },
+  "kutin": {
+    "id": "kutin",
+    "name": "Kutin",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi > Leko-Nimbari > Duru",
+    "ethnicGroups": [
+      "Kutin"
+    ],
+    "similarLanguages": [
+      "koma"
+    ],
+    "description": "Kutin belongs to the Duru branch of the Savannas languages; most of its Nigerian speakers relocated to Cameroon after the Gashaka-Gumti National Park was established."
+  },
+  "kuturmi": {
+    "id": "kuturmi",
+    "name": "Kuturmi",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Ibiro-Ikryo"
+    ],
+    "similarLanguages": [
+      "ikulu",
+      "kamantan"
+    ],
+    "description": "Kuturmi, also known as Ibiro-Ikryo or Ada, is a Plateau language cluster spoken in Kachia Local Government Area, Kaduna State, Nigeria."
+  },
+  "kwanka": {
+    "id": "kwanka",
+    "name": "Kwanka",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Kwanka"
+    ],
+    "similarLanguages": [
+      "fyam"
+    ],
+    "description": "Also known as Kadung or Kadun, Kwanka is a dialect cluster of Plateau languages spoken in central Nigeria."
+  },
+  "kyenga": {
+    "id": "kyenga",
+    "name": "Kyenga",
+    "classification": "Mande",
+    "ethnicGroups": [
+      "Kyenga"
+    ],
+    "similarLanguages": [],
+    "description": "Kyenga (also called Tyenga or Kyanga) is a Mande language spoken along the Nigeria-Benin border, though usage is declining as speakers shift to Hausa in Nigeria and Dendi in Benin."
+  },
+  "lamja": {
+    "id": "lamja",
+    "name": "Daka",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Northern Bantoid > Dakoid > Daka",
+    "ethnicGroups": [
+      "Chamba"
+    ],
+    "similarLanguages": [
+      "chamba"
+    ],
+    "description": "Daka is one of two languages spoken by the Chamba people of Nigeria, alongside Chamba Leko, and belongs to the Dakoid branch of Bantoid."
+  },
+  "lau": {
+    "id": "lau",
+    "name": "Lau",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": [
+      "Lau"
+    ],
+    "similarLanguages": [
+      "jukun"
+    ],
+    "description": "Lau is a Jukunoid language spoken in Lau LGA, Taraba State, whose speakers claim mutual intelligibility with the Jukunoid varieties of Kunini, Bandawa, and Jeshi; it was previously misclassified as a Mbum language."
+  },
+  "longuda": {
+    "id": "longuda",
+    "name": "Longuda",
+    "classification": "Niger-Congo > Adamawa",
+    "ethnicGroups": [
+      "Longuda"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as Lunguda, this Niger-Congo language is spoken around the volcanic Lunguda Plateau in Adamawa State; Joseph Greenberg classed it as a distinct Adamawa branch, though later scholarship places it among the Bambukic languages."
+  },
+  "lopa": {
+    "id": "lopa",
+    "name": "Lopa",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Lopa"
+    ],
+    "similarLanguages": [],
+    "description": "Also called Rop, Lopa is a minor Kainji language of Nigeria closely related to the Cuba language, with some speakers having shifted to the neighboring Busa language."
+  },
+  "mabo": {
+    "id": "mabo",
+    "name": "Barkul",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau > East Plateau",
+    "ethnicGroups": [
+      "Barkul"
+    ],
+    "similarLanguages": [
+      "fyam"
+    ],
+    "description": "Barkul (also Bo-Rukul) is a Plateau language of Barkul village in Bokkos LGA, Plateau State, made up of two notably distinct dialects, Bo and Rukul, each with only a few hundred to about a thousand speakers, and appears to be most closely related to Fyam and Horom."
+  },
+  "mama": {
+    "id": "mama",
+    "name": "Mama",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Bantu > Mbam-Bubi-Jarawan > Jarawan",
+    "ethnicGroups": [
+      "Mama"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as Kantana, Mama is a Jarawan Bantu language of Nigeria whose speaker numbers have declined sharply, from an estimated 20,000 in 1973 to only a few thousand, mostly older speakers, by 2011."
+  },
+  "mangas": {
+    "id": "mangas",
+    "name": "Mantsi",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > South Bauchi",
+    "ethnicGroups": [
+      "Mantsi"
+    ],
+    "similarLanguages": [
+      "polchi"
+    ],
+    "description": "Also known as Ma'as or Mangas, Mantsi is an endangered Afro-Asiatic language spoken in Mangas town, Bauchi State, whose grammatical structure is reported to differ significantly from other South Bauchi languages."
+  },
+  "mbembe": {
+    "id": "mbembe",
+    "name": "Mbembe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Mbembe"
+    ],
+    "similarLanguages": [
+      "bekwarra",
+      "bette-bendi"
+    ],
+    "description": "Mbembe is a Cross River language of Nigeria; its divergent Odut variety, spoken in an outlying village, had only 20 known speakers as of 1980 and may now be extinct."
+  },
+  "migili": {
+    "id": "migili",
+    "name": "Jili",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Jili"
+    ],
+    "similarLanguages": [
+      "koro"
+    ],
+    "description": "Also known as Lijili, Jili is a Plateau language of central Nigeria whose speakers were scattered across the region by 19th-century slave raids; it shares the ambiguous name \"Koro\" with several other unrelated languages."
+  },
+  "miya": {
+    "id": "miya",
+    "name": "Miya",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > Warji",
+    "ethnicGroups": [
+      "Miya"
+    ],
+    "similarLanguages": [
+      "warji",
+      "kariya"
+    ],
+    "description": "Miya (Miyawa) is a Chadic language spoken by around 5,000 people in Bauchi State and is related to Hausa, from which its speakers sometimes borrow vocabulary."
+  },
+  "montol": {
+    "id": "montol",
+    "name": "Montol",
+    "classification": "Afro-Asiatic",
+    "ethnicGroups": [
+      "Montol"
+    ],
+    "similarLanguages": [
+      "ngas",
+      "mushere"
+    ],
+    "description": "Spoken in Plateau State, Montol has Baltap-Lalin and Montol as its main dialects; linguist Roger Blench has also referred to it by the name Tel or Tehl."
+  },
+  "mushere": {
+    "id": "mushere",
+    "name": "Cakfem-Mushere",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Angas",
+    "ethnicGroups": [
+      "Mushere"
+    ],
+    "similarLanguages": [
+      "mwahavul",
+      "mupun"
+    ],
+    "description": "Cakfem-Mushere is an Afro-Asiatic language cluster of Bokkos LGA, Plateau State, with Kadim-Kaban and Jajura dialects; it is very close to and highly mutually intelligible with Mwaghavul and Mupun."
+  },
+  "ndoro": {
+    "id": "ndoro",
+    "name": "Ndoro",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Northern Bantoid > Mambiloid",
+    "ethnicGroups": [
+      "Ndoro"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as Ndoola or, in Cameroon, Njoyame, Ndoro is a Bantoid language of Nigeria with several thousand additional speakers across the border in Cameroon, and is thought to be related to or part of the Mambiloid languages."
+  },
+  "nembe": {
+    "id": "nembe",
+    "name": "Nembe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Kwa > Ijaw",
+    "ethnicGroups": [
+      "Nembe"
+    ],
+    "similarLanguages": [
+      "ijaw",
+      "kalabari",
+      "egbema"
+    ],
+    "description": "Nembe is one of two dialects, alongside Akassa, that make up the Southeast Ijo language spoken in the southern Niger Delta of Nigeria."
+  },
+  "ngamo": {
+    "id": "ngamo",
+    "name": "Ngamo",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale",
+    "ethnicGroups": [
+      "Ngamo"
+    ],
+    "similarLanguages": [
+      "bole",
+      "tangale",
+      "karekare"
+    ],
+    "description": "Also called Ngamawa or Gamawa, Ngamo has two major dialects, Gudi Ngamo and Yaya Ngamo, and, as a member of the West Chadic branch, is related to the regionally dominant Hausa language."
+  },
+  "nindem": {
+    "id": "nindem",
+    "name": "Ninkyob-Nindem",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Nindem"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as Kaningkom-Nindem, Ninkyob-Nindem is a dialect cluster of Plateau languages spoken in central Nigeria."
+  },
+  "nzanyi": {
+    "id": "nzanyi",
+    "name": "Nzanyi",
+    "classification": "Afro-Asiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Nzanyi"
+    ],
+    "similarLanguages": [
+      "gwoza",
+      "kamwe",
+      "mandara"
+    ],
+    "description": "Nzanyi, also known by names such as Njanyi or Nzangi, is spoken across numerous dialects in Maiha LGA, Adamawa State, and by a smaller population just across the border in northern Cameroon, though it is mainly spoken in Nigeria."
+  },
+  "ododop": {
+    "id": "ododop",
+    "name": "Korop",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Korop"
+    ],
+    "similarLanguages": [
+      "mbembe",
+      "olulumo"
+    ],
+    "description": "Also known as Ododop, Durop, or Erorop, Korop is an Upper Cross River language spoken in Nigeria."
+  },
+  "ogba": {
+    "id": "ogba",
+    "name": "Ogba",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Igboid",
+    "ethnicGroups": [
+      "Ogba"
+    ],
+    "similarLanguages": [
+      "igbo",
+      "ikwerre"
+    ],
+    "description": "Ogba is an Igboid language spoken mostly in Rivers State by the Ogba people, who form part of the Ogba/Egbema/Ndoni Local Government Area and whose traditional ruler, the Eze-Ogba, was politically pressured to adopt the title \"Oba\" as used by the Benin monarchy."
+  },
+  "ogbia": {
+    "id": "ogbia",
+    "name": "Ogbia",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Central Delta",
+    "ethnicGroups": [
+      "Ogbia"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as AgBeya or Abaya, Ogbia is the most widely spoken Central Delta language of Nigeria, with over 200,000 speakers across varieties including Kolo and Oloibiri."
+  },
+  "okobo": {
+    "id": "okobo",
+    "name": "Okobo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Lower Cross River > Obolo",
+    "ethnicGroups": [
+      "Okobo"
+    ],
+    "similarLanguages": [
+      "obolo",
+      "ibibio",
+      "annang"
+    ],
+    "description": "Okobo is a Lower Cross River language of Nigeria, closely grouped with Obolo within the Lower Cross subgroup."
+  },
+  "olulumo": {
+    "id": "olulumo",
+    "name": "Ikom",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Ikom"
+    ],
+    "similarLanguages": [
+      "mbembe",
+      "ododop"
+    ],
+    "description": "Ikom is an Upper Cross River language of Nigeria with three varieties, Okuni, Lulumo (Olulumo), and Ikom proper, the last of which accounts for about 80 percent of speakers; it is sometimes called by the combined name Olulumo-Ikom."
+  },
+  "oworo": {
+    "id": "oworo",
+    "name": "Oworo",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Kwa > Edekiri > Ede > Eastern Ede > Southeastern Ede > Nuclear Yoruba > Yoruba > Central Yoruba",
+    "ethnicGroups": [
+      "Oworo"
+    ],
+    "similarLanguages": [
+      "yoruba",
+      "owe",
+      "yagba",
+      "ijumu",
+      "bunu"
+    ],
+    "description": "Also spelled Aworo, Oworo is a Yoruba dialect spoken mainly in the Oworo District of Lokoja LGA, Kogi State, and belongs with the mutually intelligible Okun dialect group alongside Owe, Yagba, Ijumu, and Bunu; it is notable for regularly shifting the Yoruba [f] sound to [h]."
+  },
+  "paa": {
+    "id": "paa",
+    "name": "Pa'a",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > Warji",
+    "ethnicGroups": [
+      "Pa'a"
+    ],
+    "similarLanguages": [
+      "miya",
+      "warji"
+    ],
+    "description": "Also known as Afa or by the autonym Fucaka, Pa'a is a Chadic language spoken in Bauchi State, Nigeria."
+  },
+  "panyam": {
+    "id": "panyam",
+    "name": "Mak",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Gur > Bambukic",
+    "ethnicGroups": [
+      "Bikwin"
+    ],
+    "similarLanguages": [],
+    "description": "Also called LeeMak, Mak is one of several languages spoken by the Bikwin people of Karim Lamido LGA, Taraba State, with two dialects, Panya and Zoo, that are divergent enough to potentially be considered separate languages."
+  },
+  "pero": {
+    "id": "pero",
+    "name": "Pero",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic A > Bole-Tangale > Tangalic",
+    "ethnicGroups": [
+      "Pero"
+    ],
+    "similarLanguages": [
+      "tangale",
+      "bole"
+    ],
+    "description": "Pero is a West Chadic language spoken in Nigeria, part of the Tangalic branch alongside languages such as Tangale."
+  },
+  "piti": {
+    "id": "piti",
+    "name": "Piti",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Piti"
+    ],
+    "similarLanguages": [],
+    "description": "Also known as Bishi, Piti is a minor Kainji language spoken in at least 26 villages of Kaduna State; the related Ngmgbang variety was once classified as a Bishi dialect but is now considered a distinct, closely related language."
+  },
+  "polchi": {
+    "id": "polchi",
+    "name": "Polci",
+    "classification": "Afro-Asiatic > Chadic > West Chadic > West Chadic B > South Bauchi",
+    "ethnicGroups": [
+      "Polci"
+    ],
+    "similarLanguages": [
+      "mangas"
+    ],
+    "description": "Also spelled Pelci or Pose, Polci is an Afro-Asiatic language of Bauchi State belonging to the Barawa cluster within the West Chadic family."
+  },
+  "pongu": {
+    "id": "pongu",
+    "name": "Pongu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > Shiroro",
+    "ethnicGroups": [
+      "Pongu"
+    ],
+    "similarLanguages": [],
+    "description": "Also called Pangu or Rin, Pongu is a Kainji language with about 20,000 speakers centered on Pangu Gari town in Niger State, southeast of Tegina."
+  },
+  "pyapun": {
+    "id": "pyapun",
+    "name": "Pyapun",
+    "classification": "Afro-Asiatic",
+    "ethnicGroups": [
+      "Pyapun"
+    ],
+    "similarLanguages": [],
+    "description": "Pyapun is an Afro-Asiatic language spoken in about ten villages east of the Panyam-Shendam road in Plateau State, Nigeria."
+  },
+  "rebina": {
+    "id": "rebina",
+    "name": "Bunu",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji > Shammo",
+    "ethnicGroups": [
+      "Bunu"
+    ],
+    "similarLanguages": [
+      "reshe",
+      "sheni"
+    ],
+    "description": "Also known as Ribina or Rebina, Bunu is an East Kainji language spoken in Toro LGA of Bauchi State, belonging to the Shammo cluster of related Kainji languages."
+  },
+  "reshe": {
+    "id": "reshe",
+    "name": "Reshe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Reshe"
+    ],
+    "similarLanguages": [
+      "rebina",
+      "sheni",
+      "surubu"
+    ],
+    "description": "Reshe is considered the most divergent of the Kainji languages, spoken on both shores of Kainji Lake in Yauri LGA, Kebbi State, and Borgu LGA, Niger State. Birnin Yauri, near Yelwa, is regarded as the ancient city of the Reshe people."
+  },
+  "ron": {
+    "id": "ron",
+    "name": "Ron",
+    "classification": "Afroasiatic > Chadic > West Chadic > West Chadic A > Ron",
+    "ethnicGroups": [
+      "Ron"
+    ],
+    "similarLanguages": [
+      "challa",
+      "kulere"
+    ],
+    "description": "Ron, also called Challa or Chala, is a cluster of Afro-Asiatic (Chadic) dialects spoken in Plateau State, including the Bokkos, Daffo-Mbar-Butura, and Monguna varieties, some of which linguists consider separate languages in their own right."
+  },
+  "rukuba": {
+    "id": "rukuba",
+    "name": "Ce",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Rukuba"
+    ],
+    "similarLanguages": [
+      "irigwe",
+      "izere"
+    ],
+    "description": "The Ce language, also called Che or Kuce, is a regionally significant Plateau language of Nigeria, also known by the name of its native district, Rukuba, in Plateau State."
+  },
+  "ruma": {
+    "id": "ruma",
+    "name": "Ruma",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Ruma"
+    ],
+    "similarLanguages": [
+      "reshe",
+      "surubu"
+    ],
+    "description": "Ruma, also known as Ruruma, is a Kainji language spoken in Nigeria, part of the broader Kainji subgroup of Benue-Congo languages found across the country's Middle Belt."
+  },
+  "saya": {
+    "id": "saya",
+    "name": "Saya",
+    "classification": "Afroasiatic > Chadic > West Chadic > West Chadic B > South Bauchi",
+    "ethnicGroups": [
+      "Saya"
+    ],
+    "similarLanguages": [
+      "siri",
+      "warji"
+    ],
+    "description": "Saya, also known as Sayanci or Zaar, is a cluster of Chadic dialects spoken in Nigeria, forming part of the South Bauchi group of West Chadic languages."
+  },
+  "shamang": {
+    "id": "shamang",
+    "name": "Shamang",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Shamang"
+    ],
+    "similarLanguages": [
+      "zhire",
+      "rukuba"
+    ],
+    "description": "Shamang is a poorly documented Plateau language of Nigeria, reflecting the limited linguistic research available on many of the small Plateau-branch languages of the Middle Belt."
+  },
+  "shanga": {
+    "id": "shanga",
+    "name": "Shanga",
+    "classification": "Niger-Congo > Mande",
+    "ethnicGroups": [
+      "Shanga"
+    ],
+    "similarLanguages": [
+      "boko"
+    ],
+    "description": "Shanga, also known as Shangawa or Shonga, is a Mande language spoken in Nigeria, making it one of the few representatives of the Mande branch of Niger-Congo found within the country."
+  },
+  "sheni": {
+    "id": "sheni",
+    "name": "Sheni-Ziriya",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji > Ziriya",
+    "ethnicGroups": [
+      "Sheni",
+      "Ziriya"
+    ],
+    "similarLanguages": [
+      "reshe",
+      "rebina",
+      "surubu"
+    ],
+    "description": "Sheni (Shaini) and Ziriya (Jiriya) together form a single East Kainji language of Nigeria; the two communities are geographically separate but may not be linguistically distinct."
+  },
+  "shoo-minda-nye": {
+    "id": "shoo-minda-nye",
+    "name": "Shoo-Minda-Nye",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": [
+      "Shoo",
+      "Minda",
+      "Nye"
+    ],
+    "similarLanguages": [
+      "jukun",
+      "tigon"
+    ],
+    "description": "Shoo, Minda, and Nye are three dialects that together make up a single unnamed Jukunoid language of Nigeria; the Minda dialect is spoken widely in what is now Lau LGA, Taraba State."
+  },
+  "siri": {
+    "id": "siri",
+    "name": "Siri",
+    "classification": "Afroasiatic > Chadic > West Chadic > West Chadic B > Warji",
+    "ethnicGroups": [
+      "Siri"
+    ],
+    "similarLanguages": [
+      "warji",
+      "saya"
+    ],
+    "description": "Siri, also known as Sirawa, is a highly endangered Afro-Asiatic language of the Warji group spoken in Bauchi State, Nigeria."
+  },
+  "sukur": {
+    "id": "sukur",
+    "name": "Sukur",
+    "classification": "Afroasiatic > Chadic > Biu-Mandara",
+    "ethnicGroups": [
+      "Sukur"
+    ],
+    "similarLanguages": [
+      "kamwe",
+      "marghi"
+    ],
+    "description": "Sukur, also called Adikimmu Sukur or Sakun, is a Biu-Mandara (Chadic) language spoken in Madagali LGA of Adamawa State, Nigeria."
+  },
+  "surubu": {
+    "id": "surubu",
+    "name": "Vori",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji > East Kainji",
+    "ethnicGroups": [
+      "Vori"
+    ],
+    "similarLanguages": [
+      "reshe",
+      "sheni",
+      "ruma"
+    ],
+    "description": "Vori, also called Surubu or Skrubu, is a Kainji language of Nigeria centered on the town of Geshere, west of Mariri on the Lere road, with speakers spread across roughly 32 settlements."
+  },
+  "teme": {
+    "id": "teme",
+    "name": "Teme",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi",
+    "ethnicGroups": [
+      "Teme"
+    ],
+    "similarLanguages": [
+      "waka",
+      "mumuye"
+    ],
+    "description": "Teme is an Adamawa-branch Niger-Congo language spoken in Nigeria, part of the group of Adamawa languages concentrated in the country's northeast."
+  },
+  "tera": {
+    "id": "tera",
+    "name": "Tera",
+    "classification": "Afroasiatic > Chadic > Biu-Mandara > Teraic",
+    "ethnicGroups": [
+      "Tera"
+    ],
+    "similarLanguages": [
+      "kamwe",
+      "bura"
+    ],
+    "description": "Tera is a Chadic dialect cluster spoken in northeastern Nigeria, across the northern and eastern parts of Gombe and Borno States; its Pidlimdi (Hinna) dialect has been argued to be a distinct language."
+  },
+  "teshena": {
+    "id": "teshena",
+    "name": "Teshenawa",
+    "classification": "Afroasiatic > Chadic",
+    "ethnicGroups": [
+      "Teshenawa"
+    ],
+    "similarLanguages": [
+      "bade"
+    ],
+    "description": "Teshenawa, or Teshenanchi, is an extinct Afro-Asiatic language once spoken in Teshena town, Kafin Hausa LGA, Jigawa State, and was closely related to the also-extinct Auyokawa as well as the still-spoken Bade language."
+  },
+  "tigon": {
+    "id": "tigon",
+    "name": "Tigon Mbembe",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Jukunoid",
+    "ethnicGroups": [
+      "Mbembe"
+    ],
+    "similarLanguages": [
+      "mbembe",
+      "shoo-minda-nye"
+    ],
+    "description": "Tigon Mbembe, a form of Mbembe, is a Jukunoid language spoken across the northern Nigeria-Cameroon border region."
+  },
+  "tikar": {
+    "id": "tikar",
+    "name": "Tikar",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid",
+    "ethnicGroups": [
+      "Tikar",
+      "Bedzan"
+    ],
+    "similarLanguages": [
+      "mambilla"
+    ],
+    "description": "Tikar is a Northern Bantoid, semi-Bantu language spoken by the Tikar people as well as the Bedzan Pygmies, who use their own dialect of it; some linguists consider Tikar a divergent Niger-Congo language of uncertain origin."
+  },
+  "tula": {
+    "id": "tula",
+    "name": "Tula",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi",
+    "ethnicGroups": [
+      "Tula"
+    ],
+    "similarLanguages": [
+      "waja",
+      "longuda"
+    ],
+    "description": "Tula, also known as Kotule or Kitule, is one of the Savanna-branch languages of Gombe State in northeastern Nigeria."
+  },
+  "ufia": {
+    "id": "ufia",
+    "name": "Orring",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Orring"
+    ],
+    "similarLanguages": [
+      "ukelle",
+      "yakurr"
+    ],
+    "description": "Orring, also known as Korring, is an Upper Cross River language spoken by the Orring people, who live across Benue, Cross River, and Ebonyi States in Nigeria."
+  },
+  "ukelle": {
+    "id": "ukelle",
+    "name": "Kele",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River",
+    "ethnicGroups": [
+      "Ukelle"
+    ],
+    "similarLanguages": [
+      "ufia",
+      "yakurr",
+      "uyanga"
+    ],
+    "description": "Kele, also called Kukelle, is an Upper Cross River language spoken mainly in Yala LGA of Cross River State; its Ukelle speakers are divided into North and South Ukelle communities distinguished chiefly by intonation."
+  },
+  "uneme": {
+    "id": "uneme",
+    "name": "Uneme",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
+    "ethnicGroups": [
+      "Uneme"
+    ],
+    "similarLanguages": [
+      "uvwie",
+      "edo"
+    ],
+    "description": "Uneme is an Edoid language spoken in Edo State, Nigeria, belonging to the same Edoid family that includes Edo and other related languages of the region."
+  },
+  "uvwie": {
+    "id": "uvwie",
+    "name": "Uvwie",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid > Southwestern Edoid",
+    "ethnicGroups": [
+      "Uvwie"
+    ],
+    "similarLanguages": [
+      "urhobo",
+      "isoko",
+      "okpe"
+    ],
+    "description": "Uvwie, also called Ephron or Effurun, is a Niger Delta language spoken by the Uvwie people of southern Nigeria, classified as a co-ordinate member of the Southwestern Edoid branch alongside Urhobo, Okpe, and Isoko."
+  },
+  "uyanga": {
+    "id": "uyanga",
+    "name": "Uyanga",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River > Agoi-Doko-Iyoniyong",
+    "ethnicGroups": [
+      "Uyanga"
+    ],
+    "similarLanguages": [
+      "ukelle",
+      "ufia"
+    ],
+    "description": "Uyanga, also known as Doko or Iko, is a minor Upper Cross River language spoken in Nigeria."
+  },
+  "verre": {
+    "id": "verre",
+    "name": "Vere",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi",
+    "ethnicGroups": [
+      "Vere"
+    ],
+    "similarLanguages": [
+      "waka",
+      "teme"
+    ],
+    "description": "The Vere language, also known as Gweri, Kobo, or Mom Jango, belongs to the Duru branch of the Savanna languages and is spoken across the northern border area between Nigeria and Cameroon."
+  },
+  "vono": {
+    "id": "vono",
+    "name": "Vono",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Kainji",
+    "ethnicGroups": [
+      "Vono"
+    ],
+    "similarLanguages": [
+      "ruma",
+      "reshe"
+    ],
+    "description": "Vono, also known as Kiwollo or Kiballo, is a nearly extinct Kainji language spoken in Nigeria."
+  },
+  "waka": {
+    "id": "waka",
+    "name": "Waka",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi",
+    "ethnicGroups": [
+      "Waka"
+    ],
+    "similarLanguages": [
+      "teme",
+      "verre"
+    ],
+    "description": "Waka is an Adamawa-branch language of Nigeria, part of the cluster of small Adamawa languages spoken in the country's northeast."
+  },
+  "warji": {
+    "id": "warji",
+    "name": "Warji",
+    "classification": "Afroasiatic > Chadic",
+    "ethnicGroups": [
+      "Warji"
+    ],
+    "similarLanguages": [
+      "siri",
+      "saya"
+    ],
+    "description": "Warji, also called Warjawa or Sirzakwai, is an Afro-Asiatic (Chadic) language spoken in Bauchi State, Nigeria, whose speakers are increasingly shifting to Hausa."
+  },
+  "yace": {
+    "id": "yace",
+    "name": "Yace",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Idomoid > Yatye-Akpa",
+    "ethnicGroups": [
+      "Yace"
+    ],
+    "similarLanguages": [
+      "idoma",
+      "igede"
+    ],
+    "description": "Yace, also spelled Yache, is an Idomoid language of Cross River State, Nigeria, spoken in Yala LGA across communities including Alifokpa, Imbuo, and Osina, and is closely related to the Akpa language."
+  },
+  "yakurr": {
+    "id": "yakurr",
+    "name": "Yakö",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Cross River > Upper Cross River > Loko",
+    "ethnicGroups": [
+      "Yakö"
+    ],
+    "similarLanguages": [
+      "ukelle",
+      "ufia",
+      "uyanga"
+    ],
+    "description": "The Yakö language, also known as Lokö or Lokạạ, is an Upper Cross River language spoken by the Yakö (Yakurr) people of Nigeria."
+  },
+  "yandang": {
+    "id": "yandang",
+    "name": "Yendang",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa-Ubangi > Leko-Nimbari > Mumuye-Yendang",
+    "ethnicGroups": [
+      "Yendang"
+    ],
+    "similarLanguages": [
+      "mumuye",
+      "teme"
+    ],
+    "description": "Yendang belongs to the Leko-Nimbari group of Savanna languages and is spoken in northeastern Nigeria, with dialects including Kuseki, Yofo, and Poli."
+  },
+  "zhire": {
+    "id": "zhire",
+    "name": "Zhire",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Zhire"
+    ],
+    "similarLanguages": [
+      "shamang",
+      "rukuba"
+    ],
+    "description": "Zhire, known as Zhebzhi in Hyam and Kenyi in Hausa, is a poorly documented Plateau language of Nigeria; a variety called Shang is a relexified form of Zhire."
+  },
+  "awori": {
+    "id": "awori",
+    "name": "Awori",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Defoid > Yoruboid > Edekiri > Yoruba",
+    "ethnicGroups": [
+      "Awori"
+    ],
+    "similarLanguages": [
+      "yoruba",
+      "egun"
+    ],
+    "description": "The Awori are a subgroup of the Yoruba people based in Lagos State, and they speak their own dialect of the Yoruba language."
+  },
+  "bajju": {
+    "id": "bajju",
+    "name": "Bajju (Jju)",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Plateau",
+    "ethnicGroups": [
+      "Bajju"
+    ],
+    "similarLanguages": [
+      "atyap",
+      "kagoma",
+      "ikulu"
+    ],
+    "description": "Spoken by the Bajju people of the Middle Belt, chiefly in the southern part of Kaduna State around Kachia, Zangon Kataf, and Jema'a, the Jju language gives the Bajju their name, from \"Banyet Jju\" meaning people who speak Jju."
+  },
+  "ejagham": {
+    "id": "ejagham",
+    "name": "Ejagham",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > Bantoid > Southern Bantoid > Ekoid",
+    "ethnicGroups": [
+      "Ekoi"
+    ],
+    "similarLanguages": [
+      "ekoi",
+      "etung",
+      "bekwarra"
+    ],
+    "description": "Also known as Ekoi, Ejagham is an Ekoid language spoken by the Ekoi people across the Nigeria-Cameroon border region. The Ekoi are among the peoples credited with using and possibly creating the Nsibidi ideographic writing system."
+  },
+  "mwana": {
+    "id": "mwana",
+    "name": "Dikaka",
+    "classification": "Niger-Congo > Atlantic-Congo > Volta-Congo > Adamawa > Waja-Longuda > Dijim-Bwilim",
+    "ethnicGroups": [
+      "Cham"
+    ],
+    "similarLanguages": [
+      "waja",
+      "dadiya",
+      "tula",
+      "longuda"
+    ],
+    "description": "Also called Cham or Dijim-Bwilim after its two dialects Dijim and Bwilim, Dikaka is a tonal Middle Belt language with a whistled register, spoken in Gombe State and the southwestern parts of Adamawa State."
   }
 }
