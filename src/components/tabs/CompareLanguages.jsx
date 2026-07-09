@@ -14,6 +14,8 @@ const AVAILABLE = [
   'ijaw',
   'tiv',
   'ikwerre',
+  'kanuri',
+  'swahili',
 ]
 const WORD_IDS = wordData.words.map((w) => w.id)
 

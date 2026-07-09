@@ -71,7 +71,10 @@
       "Bash(curl -s --max-time 20 -H \"Accept: application/json\" \"https://asjp.clld.org/languages/IKWERE\" -o /tmp/ikwerre_asjp.json)",
       "WebFetch(domain:www.nairaland.com)",
       "WebFetch(domain:www.globalacademicstar.com)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "WebFetch(domain:en.wiktionary.org)",
+      "WebFetch(domain:wold.clld.org)",
+      "Bash(node -e ' *)"
     ]
   }
 }

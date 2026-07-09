@@ -6,23 +6,43 @@ const STATES_SOURCE = 'nigeria-states'
 const FILL_LAYER = 'nigeria-states-fill'
 const LINE_LAYER = 'nigeria-states-line'
 
-export default function MapView({ selectedStateId, onSelectState }) {
+function fillColorExpr(selectedId, highlightedIds) {
+  return [
+    'case',
+    ['==', ['get', 'state_id'], selectedId ?? ''],
+    '#f97316',
+    ['in', ['get', 'state_id'], ['literal', highlightedIds ?? []]],
+    '#16a34a',
+    '#2563eb',
+  ]
+}
+
+function fillOpacityExpr(selectedId, highlightedIds, hovering) {
+  return [
+    'case',
+    ['==', ['get', 'state_id'], selectedId ?? ''],
+    0.55,
+    ['in', ['get', 'state_id'], ['literal', highlightedIds ?? []]],
+    0.5,
+    hovering ? 0.35 : 0.25,
+  ]
+}
+
+export default function MapView({ selectedStateId, onSelectState, highlightedStateIds }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const selectedRef = useRef(selectedStateId)
+  const highlightedRef = useRef(highlightedStateIds ?? [])
 
   useEffect(() => {
     selectedRef.current = selectedStateId
+    highlightedRef.current = highlightedStateIds ?? []
     const map = mapRef.current
     if (map && map.getLayer(FILL_LAYER)) {
-      map.setPaintProperty(FILL_LAYER, 'fill-color', [
-        'case',
-        ['==', ['get', 'state_id'], selectedStateId ?? ''],
-        '#f97316',
-        '#2563eb',
-      ])
+      map.setPaintProperty(FILL_LAYER, 'fill-color', fillColorExpr(selectedStateId, highlightedStateIds))
+      map.setPaintProperty(FILL_LAYER, 'fill-opacity', fillOpacityExpr(selectedStateId, highlightedStateIds, false))
     }
-  }, [selectedStateId])
+  }, [selectedStateId, highlightedStateIds])
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -48,18 +68,8 @@ export default function MapView({ selectedStateId, onSelectState }) {
         type: 'fill',
         source: STATES_SOURCE,
         paint: {
-          'fill-color': [
-            'case',
-            ['==', ['get', 'state_id'], selectedRef.current ?? ''],
-            '#f97316',
-            '#2563eb',
-          ],
-          'fill-opacity': [
-            'case',
-            ['==', ['get', 'state_id'], selectedRef.current ?? ''],
-            0.55,
-            0.25,
-          ],
+          'fill-color': fillColorExpr(selectedRef.current, highlightedRef.current),
+          'fill-opacity': fillOpacityExpr(selectedRef.current, highlightedRef.current, false),
         },
       })
 
@@ -90,22 +100,20 @@ export default function MapView({ selectedStateId, onSelectState }) {
 
       map.on('mouseenter', FILL_LAYER, () => {
         map.getCanvas().style.cursor = 'pointer'
-        map.setPaintProperty(FILL_LAYER, 'fill-opacity', [
-          'case',
-          ['==', ['get', 'state_id'], selectedRef.current ?? ''],
-          0.55,
-          0.35,
-        ])
+        map.setPaintProperty(
+          FILL_LAYER,
+          'fill-opacity',
+          fillOpacityExpr(selectedRef.current, highlightedRef.current, true),
+        )
       })
 
       map.on('mouseleave', FILL_LAYER, () => {
         map.getCanvas().style.cursor = ''
-        map.setPaintProperty(FILL_LAYER, 'fill-opacity', [
-          'case',
-          ['==', ['get', 'state_id'], selectedRef.current ?? ''],
-          0.55,
-          0.25,
-        ])
+        map.setPaintProperty(
+          FILL_LAYER,
+          'fill-opacity',
+          fillOpacityExpr(selectedRef.current, highlightedRef.current, false),
+        )
       })
     })
 

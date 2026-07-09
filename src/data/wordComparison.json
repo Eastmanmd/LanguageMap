@@ -1,25 +1,85 @@
 {
   "words": [
-    { "id": "one", "en": "one" },
-    { "id": "two", "en": "two" },
-    { "id": "three", "en": "three" },
-    { "id": "four", "en": "four" },
-    { "id": "five", "en": "five" },
-    { "id": "six", "en": "six" },
-    { "id": "seven", "en": "seven" },
-    { "id": "eight", "en": "eight" },
-    { "id": "nine", "en": "nine" },
-    { "id": "ten", "en": "ten" },
-    { "id": "man", "en": "man" },
-    { "id": "woman", "en": "woman" },
-    { "id": "people", "en": "people" },
-    { "id": "head", "en": "head" },
-    { "id": "mouth", "en": "mouth" },
-    { "id": "nose", "en": "nose" },
-    { "id": "ear", "en": "ear" },
-    { "id": "water", "en": "water" },
-    { "id": "rain", "en": "rain" },
-    { "id": "name", "en": "name" }
+    {
+      "id": "one",
+      "en": "one"
+    },
+    {
+      "id": "two",
+      "en": "two"
+    },
+    {
+      "id": "three",
+      "en": "three"
+    },
+    {
+      "id": "four",
+      "en": "four"
+    },
+    {
+      "id": "five",
+      "en": "five"
+    },
+    {
+      "id": "six",
+      "en": "six"
+    },
+    {
+      "id": "seven",
+      "en": "seven"
+    },
+    {
+      "id": "eight",
+      "en": "eight"
+    },
+    {
+      "id": "nine",
+      "en": "nine"
+    },
+    {
+      "id": "ten",
+      "en": "ten"
+    },
+    {
+      "id": "man",
+      "en": "man"
+    },
+    {
+      "id": "woman",
+      "en": "woman"
+    },
+    {
+      "id": "people",
+      "en": "people"
+    },
+    {
+      "id": "head",
+      "en": "head"
+    },
+    {
+      "id": "mouth",
+      "en": "mouth"
+    },
+    {
+      "id": "nose",
+      "en": "nose"
+    },
+    {
+      "id": "ear",
+      "en": "ear"
+    },
+    {
+      "id": "water",
+      "en": "water"
+    },
+    {
+      "id": "rain",
+      "en": "rain"
+    },
+    {
+      "id": "name",
+      "en": "name"
+    }
   ],
   "languages": {
     "hausa": {
@@ -160,16 +220,16 @@
         "eight": "ahata",
         "nine": "ahane",
         "ten": "igwo",
-        "man": null,
-        "woman": "ene",
-        "people": null,
+        "man": "onyilo",
+        "woman": "onya",
+        "people": "ache",
         "head": "eyi",
         "mouth": "okonu",
         "nose": "enwu",
         "ear": "aho",
         "water": "enkpo",
-        "rain": "oowor",
-        "name": null
+        "rain": "owo",
+        "name": "iye"
       }
     },
     "ibibio": {
@@ -210,7 +270,7 @@
         "eight": "ninghini",
         "nine": "ise",
         "ten": "oi",
-        "man": null,
+        "man": "owei",
         "woman": "eré",
         "people": "uto",
         "head": "tibii",
@@ -237,7 +297,7 @@
         "ten": "pue",
         "man": "numsor",
         "woman": "kwase",
-        "people": null,
+        "people": "ior",
         "head": "ityough",
         "mouth": "dza",
         "nose": "ihinga",
@@ -260,16 +320,65 @@
         "eight": "ẹsato",
         "nine": "tolu",
         "ten": "nri",
-        "man": null,
-        "woman": null,
-        "people": "bado",
+        "man": "nyeruka",
+        "woman": "nyerinya",
+        "people": "nde badnu",
         "head": "ishi",
         "mouth": "ọnụ",
         "nose": "imi",
         "ear": "msi",
         "water": "mini",
-        "rain": null,
+        "rain": "olu",
         "name": "awhna"
+      }
+    },
+    "kanuri": {
+      "name": "Kanuri",
+      "words": {
+        "one": "tiló",
+        "two": "indí",
+        "three": "yaskǝ",
+        "four": "dégǝ",
+        "five": "úgù",
+        "six": "ɑrɑskǝ",
+        "seven": "túlùr",
+        "eight": "wuskú",
+        "nine": "lǝgár",
+        "ten": "megú",
+        "man": "kwâ",
+        "woman": "kámú",
+        "people": "kâm",
+        "head": "kə̀lâ",
+        "mouth": "cî",
+        "nose": "kə́nzà",
+        "ear": "sə́mò",
+        "water": "njî",
+        "rain": "də̀lágə̀"
+      }
+    },
+    "swahili": {
+      "name": "Swahili",
+      "words": {
+        "one": "moja",
+        "two": "mbili",
+        "three": "tatu",
+        "four": "nne",
+        "five": "tano",
+        "six": "sita",
+        "seven": "saba",
+        "eight": "nane",
+        "nine": "tisa",
+        "ten": "kumi",
+        "man": "mwanaume",
+        "woman": "mwanamke",
+        "people": "watu",
+        "head": "kichwa",
+        "mouth": "mdomo",
+        "nose": "pua",
+        "ear": "sikio",
+        "water": "maji",
+        "rain": "mvua",
+        "name": "jina"
       }
     }
   }
