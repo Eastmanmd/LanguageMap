@@ -79,7 +79,11 @@
       "WebFetch(domain:archive.org)",
       "WebFetch(domain:letslearnedo.ng)",
       "WebFetch(domain:grokipedia.com)",
-      "WebFetch(domain:nkowaokwu.com)"
+      "WebFetch(domain:nkowaokwu.com)",
+      "Bash(curl -s https://tiles.openfreemap.org/styles.json)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://tiles.openfreemap.org/styles/dark.json)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://tiles.openfreemap.org/styles/dark)",
+      "Bash(curl -s https://tiles.openfreemap.org/styles/dark)"
     ]
   }
 }

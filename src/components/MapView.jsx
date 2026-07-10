@@ -1,10 +1,13 @@
 import { useEffect, useRef } from 'react'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
+import MapLegend from './MapLegend'
 
 const STATES_SOURCE = 'nigeria-states'
 const FILL_LAYER = 'nigeria-states-fill'
 const LINE_LAYER = 'nigeria-states-line'
+const LIGHT_STYLE = 'https://tiles.openfreemap.org/styles/liberty'
+const DARK_STYLE = 'https://tiles.openfreemap.org/styles/dark'
 
 function fillColorExpr(selectedId, highlightedIds) {
   return [
@@ -28,11 +31,44 @@ function fillOpacityExpr(selectedId, highlightedIds, hovering) {
   ]
 }
 
-export default function MapView({ selectedStateId, onSelectState, highlightedStateIds }) {
+function addStatesLayers(map, selectedId, highlightedIds) {
+  if (!map.getSource(STATES_SOURCE)) {
+    map.addSource(STATES_SOURCE, {
+      type: 'geojson',
+      data: '/data/nigeria-states.geojson',
+    })
+  }
+  if (!map.getLayer(FILL_LAYER)) {
+    map.addLayer({
+      id: FILL_LAYER,
+      type: 'fill',
+      source: STATES_SOURCE,
+      paint: {
+        'fill-color': fillColorExpr(selectedId, highlightedIds),
+        'fill-opacity': fillOpacityExpr(selectedId, highlightedIds, false),
+      },
+    })
+  }
+  if (!map.getLayer(LINE_LAYER)) {
+    map.addLayer({
+      id: LINE_LAYER,
+      type: 'line',
+      source: STATES_SOURCE,
+      paint: {
+        'line-color': '#1e3a8a',
+        'line-width': 1,
+      },
+    })
+  }
+}
+
+export default function MapView({ selectedStateId, onSelectState, highlightedStateIds, dark }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const selectedRef = useRef(selectedStateId)
   const highlightedRef = useRef(highlightedStateIds ?? [])
+  const darkRef = useRef(dark)
+  const isFirstStyleRun = useRef(true)
 
   useEffect(() => {
     selectedRef.current = selectedStateId
@@ -45,9 +81,23 @@ export default function MapView({ selectedStateId, onSelectState, highlightedSta
   }, [selectedStateId, highlightedStateIds])
 
   useEffect(() => {
+    darkRef.current = dark
+    if (isFirstStyleRun.current) {
+      isFirstStyleRun.current = false
+      return
+    }
+    const map = mapRef.current
+    if (!map) return
+    map.setStyle(dark ? DARK_STYLE : LIGHT_STYLE)
+    map.once('styledata', () => {
+      addStatesLayers(map, selectedRef.current, highlightedRef.current)
+    })
+  }, [dark])
+
+  useEffect(() => {
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: 'https://tiles.openfreemap.org/styles/liberty',
+      style: darkRef.current ? DARK_STYLE : LIGHT_STYLE,
       center: [8.0, 9.1],
       zoom: 5.4,
       minZoom: 4,
@@ -58,30 +108,7 @@ export default function MapView({ selectedStateId, onSelectState, highlightedSta
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
 
     map.on('load', () => {
-      map.addSource(STATES_SOURCE, {
-        type: 'geojson',
-        data: '/data/nigeria-states.geojson',
-      })
-
-      map.addLayer({
-        id: FILL_LAYER,
-        type: 'fill',
-        source: STATES_SOURCE,
-        paint: {
-          'fill-color': fillColorExpr(selectedRef.current, highlightedRef.current),
-          'fill-opacity': fillOpacityExpr(selectedRef.current, highlightedRef.current, false),
-        },
-      })
-
-      map.addLayer({
-        id: LINE_LAYER,
-        type: 'line',
-        source: STATES_SOURCE,
-        paint: {
-          'line-color': '#1e3a8a',
-          'line-width': 1,
-        },
-      })
+      addStatesLayers(map, selectedRef.current, highlightedRef.current)
 
       map.fitBounds(
         [
@@ -121,5 +148,10 @@ export default function MapView({ selectedStateId, onSelectState, highlightedSta
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  return <div ref={containerRef} className="h-full w-full" />
+  return (
+    <div className="relative h-full w-full">
+      <div ref={containerRef} className="h-full w-full" />
+      <MapLegend />
+    </div>
+  )
 }

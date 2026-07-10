@@ -1,32 +1,33 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import wordData from '../../data/wordComparison.json'
 import PhylogeneticTree from './PhylogeneticTree'
+import MultiLanguagePicker from '../MultiLanguagePicker'
 import { languageSimilarity, buildTree } from '../../utils/phylogenetics'
 
-const AVAILABLE = [
-  'hausa',
-  'igbo',
-  'yoruba',
-  'fulfulde',
-  'edo',
-  'idoma',
-  'ibibio',
-  'ijaw',
-  'tiv',
-  'ikwerre',
-  'kanuri',
-  'swahili',
-]
+const LANGUAGE_OPTIONS = Object.entries(wordData.languages)
+  .map(([id, lang]) => ({ id, name: lang.name }))
+  .sort((a, b) => a.name.localeCompare(b.name))
 const WORD_IDS = wordData.words.map((w) => w.id)
 
 export default function CompareLanguages() {
-  const [selected, setSelected] = useState([])
+  const [searchParams, setSearchParams] = useSearchParams()
 
-  const toggle = (id) => {
-    setSelected((prev) =>
-      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id],
-    )
+  const selected = useMemo(() => {
+    const raw = searchParams.get('langs')
+    if (!raw) return []
+    return raw.split(',').filter((id) => wordData.languages[id])
+  }, [searchParams])
+
+  const updateSelected = (next) => {
+    const params = new URLSearchParams(searchParams)
+    if (next.length > 0) params.set('langs', next.join(','))
+    else params.delete('langs')
+    setSearchParams(params)
   }
+
+  const handleAdd = (id) => updateSelected([...selected, id])
+  const handleRemove = (id) => updateSelected(selected.filter((x) => x !== id))
 
   const tree = useMemo(() => {
     if (selected.length < 2) return null
@@ -50,37 +51,26 @@ export default function CompareLanguages() {
 
   return (
     <div className="flex-1 overflow-y-auto px-6 py-10 md:px-10">
-      <h1 className="text-2xl font-medium tracking-tight text-gray-900">
+      <h1 className="text-2xl font-medium tracking-tight text-gray-900 dark:text-white">
         Compare languages
       </h1>
-      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-500">
-        Select two or more languages to compare 20 basic words (numbers one to
-        ten, plus 10 everyday words) side by side,
-        and see a tree built from how similar those words are across the
-        languages you pick.
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+        Search and add two or more languages to compare 20+ basic words (numbers
+        one to ten, plus everyday words) side by side, and see a tree built from
+        how similar those words are across the languages you pick.
       </p>
 
-      <div className="language-chip-group mt-6 flex flex-wrap gap-2">
-        {AVAILABLE.map((id) => {
-          const active = selected.includes(id)
-          return (
-            <button
-              key={id}
-              onClick={() => toggle(id)}
-              className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-                active
-                  ? 'border-blue-600 bg-blue-600 text-white'
-                  : 'border-gray-200 text-gray-700 hover:border-gray-300'
-              }`}
-            >
-              {labelOf(id)}
-            </button>
-          )
-        })}
+      <div className="mt-6">
+        <MultiLanguagePicker
+          languageOptions={LANGUAGE_OPTIONS}
+          selectedIds={selected}
+          onAdd={handleAdd}
+          onRemove={handleRemove}
+        />
       </div>
 
       {selected.length < 2 ? (
-        <p className="mt-10 text-sm text-gray-400">
+        <p className="mt-10 text-sm text-gray-400 dark:text-gray-500">
           Select two or more languages above to see the comparison.
         </p>
       ) : (
@@ -89,13 +79,13 @@ export default function CompareLanguages() {
             <table className="w-full min-w-[480px] border-collapse text-sm">
               <thead>
                 <tr>
-                  <th className="border-b border-gray-200 px-3 py-2 text-left font-medium text-gray-500">
+                  <th className="border-b border-gray-200 px-3 py-2 text-left font-medium text-gray-500 dark:border-white/10 dark:text-gray-400">
                     English
                   </th>
                   {selected.map((id) => (
                     <th
                       key={id}
-                      className="border-b border-gray-200 px-3 py-2 text-left font-medium text-gray-900"
+                      className="border-b border-gray-200 px-3 py-2 text-left font-medium text-gray-900 dark:border-white/10 dark:text-white"
                     >
                       {labelOf(id)}
                     </th>
@@ -104,8 +94,8 @@ export default function CompareLanguages() {
               </thead>
               <tbody>
                 {wordData.words.map((word) => (
-                  <tr key={word.id} className="odd:bg-gray-50/60">
-                    <td className="px-3 py-2 capitalize text-gray-500">
+                  <tr key={word.id} className="odd:bg-gray-50/60 dark:odd:bg-white/[0.03]">
+                    <td className="px-3 py-2 capitalize text-gray-500 dark:text-gray-400">
                       {word.en}
                     </td>
                     {selected.map((id) => {
@@ -114,7 +104,9 @@ export default function CompareLanguages() {
                         <td
                           key={id}
                           className={`px-3 py-2 ${
-                            value ? 'text-gray-900' : 'text-gray-300'
+                            value
+                              ? 'text-gray-900 dark:text-white'
+                              : 'text-gray-300 dark:text-gray-600'
                           }`}
                         >
                           {value ?? '—'}
@@ -128,11 +120,11 @@ export default function CompareLanguages() {
           </div>
 
           <div>
-            <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500">
+            <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
               Similarity tree
             </h2>
-            <p className="mt-2 max-w-2xl text-sm text-gray-500">
-              Built by comparing the spelling of these 20 words across your
+            <p className="mt-2 max-w-2xl text-sm text-gray-500 dark:text-gray-400">
+              Built by comparing the spelling of these words across your
               selected languages (closer word forms cluster together first).
               This is a simple lexical-similarity illustration, not a
               rigorous historical-linguistic classification.

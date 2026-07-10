@@ -31,7 +31,7 @@ function renderNode(node, positions, xScale, labelOf, keyPrefix) {
         x={x + 10}
         y={pos.y}
         dominantBaseline="middle"
-        className="fill-gray-800 text-[13px]"
+        className="fill-gray-800 text-[13px] dark:fill-gray-200"
       >
         {labelOf(node.label)}
       </text>,
