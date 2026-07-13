@@ -96,6 +96,7 @@
   "languages": {
     "hausa": {
       "name": "Hausa",
+      "classification": "Afro-Asiatic > Chadic > West Chadic > Hausa-Gwandara",
       "words": {
         "one": "ɗaya",
         "two": "biyu",
@@ -124,6 +125,7 @@
     },
     "yoruba": {
       "name": "Yoruba",
+      "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Yoruboid",
       "words": {
         "one": "ọ̀kan",
         "two": "èjì",
@@ -152,6 +154,7 @@
     },
     "igbo": {
       "name": "Igbo",
+      "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Igboid",
       "words": {
         "one": "otu",
         "two": "abụọ",
@@ -180,6 +183,7 @@
     },
     "fulfulde": {
       "name": "Fulani (Fulfulde)",
+      "classification": "Niger-Congo > Atlantic-Congo > North-Central Atlantic > Fula-Wolof",
       "words": {
         "one": "gooto",
         "two": "ɗiɗi",
@@ -206,6 +210,7 @@
     },
     "edo": {
       "name": "Edo",
+      "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Edoid",
       "words": {
         "one": "ọkpa",
         "two": "eva",
@@ -234,6 +239,7 @@
     },
     "idoma": {
       "name": "Idoma",
+      "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Idomoid",
       "words": {
         "one": "eye",
         "two": "epa",
@@ -262,6 +268,7 @@
     },
     "ibibio": {
       "name": "Ibibio",
+      "classification": "Niger-Congo > Atlantic-Congo > Cross River > Delta-Cross > Lower Cross",
       "words": {
         "one": "kiet",
         "two": "iba",
@@ -290,6 +297,7 @@
     },
     "ijaw": {
       "name": "Ijaw (Izon)",
+      "classification": "Niger-Congo > Ijoid",
       "words": {
         "one": "kẹnị",
         "two": "mamụ",
@@ -315,6 +323,7 @@
     },
     "tiv": {
       "name": "Tiv",
+      "classification": "Niger-Congo > Atlantic-Congo > Bantoid > Southern Bantoid > Tivoid",
       "words": {
         "one": "mom",
         "two": "uhar",
@@ -340,6 +349,7 @@
     },
     "ikwerre": {
       "name": "Ikwerre",
+      "classification": "Niger-Congo > Atlantic-Congo > Volta-Niger > Igboid",
       "words": {
         "one": "otu",
         "two": "ẹbo",
@@ -368,6 +378,7 @@
     },
     "kanuri": {
       "name": "Kanuri",
+      "classification": "Nilo-Saharan > Saharan",
       "words": {
         "one": "tiló",
         "two": "indí",
@@ -392,6 +403,7 @@
     },
     "swahili": {
       "name": "Swahili",
+      "classification": "Niger-Congo > Atlantic-Congo > Bantoid > Southern Bantoid > Bantu",
       "words": {
         "one": "moja",
         "two": "mbili",
@@ -420,6 +432,7 @@
     },
     "luganda": {
       "name": "Luganda",
+      "classification": "Niger-Congo > Atlantic-Congo > Bantoid > Southern Bantoid > Bantu",
       "words": {
         "one": "emu",
         "two": "bbiri",
@@ -448,6 +461,7 @@
     },
     "wolof": {
       "name": "Wolof",
+      "classification": "Niger-Congo > Atlantic-Congo > North-Central Atlantic > Fula-Wolof",
       "words": {
         "one": "benn",
         "two": "ñaar",
@@ -476,6 +490,7 @@
     },
     "twi": {
       "name": "Twi",
+      "classification": "Niger-Congo > Atlantic-Congo > Kwa > Central Tano",
       "words": {
         "one": "baako",
         "two": "mmienu",

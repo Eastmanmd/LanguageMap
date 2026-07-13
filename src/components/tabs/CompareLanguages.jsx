@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import wordData from '../../data/wordComparison.json'
 import PhylogeneticTree from './PhylogeneticTree'
@@ -10,8 +10,37 @@ const LANGUAGE_OPTIONS = Object.entries(wordData.languages)
   .sort((a, b) => a.name.localeCompare(b.name))
 const WORD_IDS = wordData.words.map((w) => w.id)
 
+// Classification levels get progressively deeper; used both to label the
+// "color by" selector and to pick which segment of the path drives grouping.
+const LEVEL_NAMES = ['Family', 'Subfamily', 'Branch', 'Sub-branch', 'Group', 'Subgroup']
+
+// Distinguishable palette that reads on both light and dark backgrounds.
+const GROUP_COLORS = [
+  '#2563eb',
+  '#f97316',
+  '#16a34a',
+  '#9333ea',
+  '#dc2626',
+  '#0d9488',
+  '#db2777',
+  '#ca8a04',
+]
+
+const classificationPath = (id) =>
+  wordData.languages[id]?.classification?.split(' > ').map((s) => s.trim()) ?? []
+
+// The grouping value for a language at a given depth. If the language's
+// classification is shallower than the chosen level, fall back to its
+// deepest segment so it still groups sensibly rather than dropping out.
+const groupAtLevel = (id, level) => {
+  const path = classificationPath(id)
+  if (path.length === 0) return null
+  return path[Math.min(level, path.length - 1)]
+}
+
 export default function CompareLanguages() {
   const [searchParams, setSearchParams] = useSearchParams()
+  const [colorLevel, setColorLevel] = useState(0)
 
   const selected = useMemo(() => {
     const raw = searchParams.get('langs')
@@ -49,6 +78,30 @@ export default function CompareLanguages() {
 
   const labelOf = (id) => wordData.languages[id]?.name ?? id
 
+  // The deepest classification among selected languages bounds how many
+  // levels the "color by" selector can offer.
+  const maxLevels = useMemo(
+    () => Math.max(1, ...selected.map((id) => classificationPath(id).length)),
+    [selected],
+  )
+  const effectiveLevel = Math.min(colorLevel, maxLevels - 1)
+
+  // Map each distinct classification group (at the chosen level) to a color,
+  // assigning palette entries in the order groups first appear.
+  const colorByGroup = useMemo(() => {
+    const map = new Map()
+    for (const id of selected) {
+      const group = groupAtLevel(id, effectiveLevel)
+      if (group && !map.has(group)) {
+        map.set(group, GROUP_COLORS[map.size % GROUP_COLORS.length])
+      }
+    }
+    return map
+  }, [selected, effectiveLevel])
+
+  const colorOf = (id) => colorByGroup.get(groupAtLevel(id, effectiveLevel)) ?? null
+  const annotationOf = (id) => groupAtLevel(id, effectiveLevel)
+
   return (
     <div className="flex-1 overflow-y-auto px-6 py-10 md:px-10">
       <h1 className="text-2xl font-medium tracking-tight text-gray-900 dark:text-white">
@@ -75,6 +128,45 @@ export default function CompareLanguages() {
         </p>
       ) : (
         <div className="mt-10 space-y-12">
+          <div>
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <div>
+                <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                  Similarity tree
+                </h2>
+                <p className="mt-2 max-w-2xl text-sm text-gray-500 dark:text-gray-400">
+                  Built by comparing the spelling of these words across your
+                  selected languages (closer word forms cluster together first).
+                  Annotations on the right show each language's classification;
+                  this is a simple lexical-similarity illustration, not a
+                  rigorous historical-linguistic classification.
+                </p>
+              </div>
+              <label className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
+                Color by
+                <select
+                  value={effectiveLevel}
+                  onChange={(e) => setColorLevel(Number(e.target.value))}
+                  className="rounded-md border border-gray-200 bg-white px-2 py-1 text-xs text-gray-900 dark:border-white/15 dark:bg-white/5 dark:text-white"
+                >
+                  {Array.from({ length: maxLevels }, (_, level) => (
+                    <option key={level} value={level}>
+                      {LEVEL_NAMES[level] ?? `Level ${level + 1}`}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+            <div className="mt-6">
+              <PhylogeneticTree
+                tree={tree}
+                labelOf={labelOf}
+                colorOf={colorOf}
+                annotationOf={annotationOf}
+              />
+            </div>
+          </div>
+
           <div className="overflow-x-auto">
             <table className="w-full min-w-[480px] border-collapse text-sm">
               <thead>
@@ -117,21 +209,6 @@ export default function CompareLanguages() {
                 ))}
               </tbody>
             </table>
-          </div>
-
-          <div>
-            <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
-              Similarity tree
-            </h2>
-            <p className="mt-2 max-w-2xl text-sm text-gray-500 dark:text-gray-400">
-              Built by comparing the spelling of these words across your
-              selected languages (closer word forms cluster together first).
-              This is a simple lexical-similarity illustration, not a
-              rigorous historical-linguistic classification.
-            </p>
-            <div className="mt-6">
-              <PhylogeneticTree tree={tree} labelOf={labelOf} />
-            </div>
           </div>
         </div>
       )}

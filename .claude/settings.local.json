@@ -85,7 +85,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://tiles.openfreemap.org/styles/dark)",
       "Bash(curl -s https://tiles.openfreemap.org/styles/dark)",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('src/data/wordComparison.json','utf8'\\)\\); console.log\\('valid json'\\)\")",
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Bash(npm run *)"
     ]
   }
 }

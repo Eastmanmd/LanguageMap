@@ -1,5 +1,8 @@
 const LEAF_SPACING = 48
-const MARGIN = { top: 24, right: 160, bottom: 24, left: 24 }
+const LABEL_OFFSET = 10
+const ANNOTATION_OFFSET = 130
+const DEFAULT_COLOR = '#94a3b8'
+const MARGIN = { top: 24, right: 300, bottom: 24, left: 24 }
 
 function collectMaxHeight(node) {
   if (!node.children) return node.height
@@ -19,16 +22,25 @@ function assignPositions(node, positions, state) {
   return y
 }
 
-function renderNode(node, positions, xScale, labelOf, keyPrefix) {
+function renderNode(node, positions, xScale, labelOf, colorOf, annotationOf, keyPrefix) {
   const pos = positions.get(node)
   const x = xScale(node.height)
   const elements = []
 
   if (!node.children) {
+    const color = colorOf(node.label) ?? DEFAULT_COLOR
+    const annotation = annotationOf(node.label)
     elements.push(
+      <circle
+        key={`${keyPrefix}-dot`}
+        cx={x}
+        cy={pos.y}
+        r={3.5}
+        fill={color}
+      />,
       <text
         key={`${keyPrefix}-label`}
-        x={x + 10}
+        x={x + LABEL_OFFSET}
         y={pos.y}
         dominantBaseline="middle"
         className="fill-gray-800 text-[13px] dark:fill-gray-200"
@@ -36,6 +48,20 @@ function renderNode(node, positions, xScale, labelOf, keyPrefix) {
         {labelOf(node.label)}
       </text>,
     )
+    if (annotation) {
+      elements.push(
+        <text
+          key={`${keyPrefix}-annotation`}
+          x={x + ANNOTATION_OFFSET}
+          y={pos.y}
+          dominantBaseline="middle"
+          fill={color}
+          className="text-[11px] font-medium"
+        >
+          {annotation}
+        </text>,
+      )
+    }
     return elements
   }
 
@@ -75,12 +101,19 @@ function renderNode(node, positions, xScale, labelOf, keyPrefix) {
     />,
   )
 
-  elements.push(...renderNode(left, positions, xScale, labelOf, `${keyPrefix}-l`))
-  elements.push(...renderNode(right, positions, xScale, labelOf, `${keyPrefix}-r`))
+  elements.push(
+    ...renderNode(left, positions, xScale, labelOf, colorOf, annotationOf, `${keyPrefix}-l`),
+    ...renderNode(right, positions, xScale, labelOf, colorOf, annotationOf, `${keyPrefix}-r`),
+  )
   return elements
 }
 
-export default function PhylogeneticTree({ tree, labelOf }) {
+export default function PhylogeneticTree({
+  tree,
+  labelOf,
+  colorOf = () => null,
+  annotationOf = () => null,
+}) {
   if (!tree) return null
 
   const maxHeight = collectMaxHeight(tree) || 1
@@ -100,15 +133,17 @@ export default function PhylogeneticTree({ tree, labelOf }) {
   const height = MARGIN.top + plotHeight + MARGIN.bottom
 
   return (
-    <svg
-      viewBox={`0 0 ${width} ${height}`}
-      width="100%"
-      style={{ maxWidth: width }}
-    >
-      <g transform={`translate(0, ${MARGIN.top})`}>
-        {renderNode(tree, positions, xScale, labelOf, 'n')}
-      </g>
-    </svg>
+    <div className="overflow-x-auto">
+      <svg
+        viewBox={`0 0 ${width} ${height}`}
+        width="100%"
+        style={{ minWidth: width, maxWidth: width }}
+      >
+        <g transform={`translate(0, ${MARGIN.top})`}>
+          {renderNode(tree, positions, xScale, labelOf, colorOf, annotationOf, 'n')}
+        </g>
+      </svg>
+    </div>
   )
 }
 
