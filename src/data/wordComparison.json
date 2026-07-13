@@ -445,6 +445,62 @@
         "go": "genda",
         "speak": "yogera"
       }
+    },
+    "wolof": {
+      "name": "Wolof",
+      "words": {
+        "one": "benn",
+        "two": "ñaar",
+        "three": "ñett",
+        "four": "ñeent",
+        "five": "juróom",
+        "six": "juróom-benn",
+        "seven": "juróom-ñaar",
+        "eight": "juróom-ñett",
+        "nine": "juróom-ñeent",
+        "ten": "fukk",
+        "man": "góor",
+        "woman": "jigéen",
+        "people": "nit",
+        "head": "bopp",
+        "mouth": "gémmiñ",
+        "nose": "bakkan",
+        "ear": "nopp",
+        "water": "ndox",
+        "rain": "taw",
+        "name": "tur",
+        "come": "ñëw",
+        "go": "dem",
+        "speak": "wax"
+      }
+    },
+    "twi": {
+      "name": "Twi",
+      "words": {
+        "one": "baako",
+        "two": "mmienu",
+        "three": "mmiɛnsa",
+        "four": "nnan",
+        "five": "enum",
+        "six": "nsia",
+        "seven": "nson",
+        "eight": "nwɔtwe",
+        "nine": "nkron",
+        "ten": "edu",
+        "man": "ɔbarima",
+        "woman": "ɔbaa",
+        "people": "nnipa",
+        "head": "eti",
+        "mouth": "ano",
+        "nose": "hwene",
+        "ear": "aso",
+        "water": "nsuo",
+        "rain": "osu",
+        "name": "din",
+        "come": "bra",
+        "go": "kɔ",
+        "speak": "kasa"
+      }
     }
   }
 }
