@@ -8,7 +8,7 @@ export function ThemeProvider({ children }) {
   const [dark, setDark] = useState(() => {
     const stored = localStorage.getItem(STORAGE_KEY)
     if (stored === 'light' || stored === 'dark') return stored === 'dark'
-    return true
+    return false
   })
 
   useEffect(() => {
